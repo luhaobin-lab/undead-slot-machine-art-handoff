@@ -1,0 +1,439 @@
+[
+ {
+  "id": 1,
+  "key": "farm",
+  "name": "第一章 · 麦田乡野",
+  "sub": "亡灵从乱葬岗爬出。麦田、风车、河边哨岗……石桥镇的千垒督军守着通往高地的唯一一座桥。",
+  "start": "乱葬岗",
+  "boss": "warlord",
+  "bossNode": {
+   "name": "石桥镇",
+   "enc": [
+    "wolf",
+    "feral_hog"
+   ]
+  },
+  "bazaar": "乡间集市",
+  "market": "石桥集市",
+  "camp": "林间篝火",
+  "easy": [
+   {
+    "name": "麦田村",
+    "enc": [
+     "goat",
+     "duck",
+     "toddler"
+    ],
+    "fl": "草叉和木棒"
+   },
+   {
+    "name": "猎户营地",
+    "enc": [
+     "mallard_duck",
+     "raven",
+     "duck"
+    ],
+    "fl": "猎户和掷砂散兵"
+   },
+   {
+    "name": "牧场",
+    "enc": [
+     "canada_goose",
+     "horse",
+     "goat"
+    ],
+    "fl": "骑着驮马的斥候"
+   },
+   {
+    "name": "村口",
+    "enc": [
+     "goose",
+     "rat",
+     "duck_sized_horse"
+    ],
+    "fl": "巡丁和街巷打手"
+   }
+  ],
+  "battles": [
+   {
+    "name": "风车磨坊",
+    "enc": [
+     "ram",
+     "feral_hog",
+     "goose"
+    ],
+    "fl": "磨坊主召集了乡勇"
+   },
+   {
+    "name": "养蜂林地",
+    "enc": [
+     "bee",
+     "seagull",
+     "rat"
+    ],
+    "fl": "刺剑手很会闪避"
+   },
+   {
+    "name": "河边哨岗",
+    "enc": [
+     "wolf",
+     "goose",
+     "duck_sized_horse"
+    ],
+    "fl": "联盾步兵会分担伤害"
+   },
+   {
+    "name": "驿站",
+    "enc": [
+     "rattlesnake",
+     "rat",
+     "seagull"
+    ],
+    "fl": "淬毒短刀手"
+   },
+   {
+    "name": "石桥外营",
+    "enc": [
+     "wolf",
+     "poison_dart_frog",
+     "kangaroo"
+    ],
+    "fl": "桥头的守军"
+   },
+   {
+    "name": "谷仓",
+    "enc": [
+     "feral_hog",
+     "canada_goose",
+     "raven"
+    ],
+    "fl": "集结起来的义勇兵"
+   }
+  ],
+  "elites": [
+   {
+    "name": "男爵庄园",
+    "enc": [
+     "porcupine",
+     "panda_bear",
+     "honey_badger"
+    ],
+    "fl": "男爵的私兵：刺甲反击卫"
+   },
+   {
+    "name": "乡勇营寨",
+    "enc": [
+     "kangaroo",
+     "wolf",
+     "feral_hog"
+    ],
+    "fl": "驻盾和联盾一起顶在前面"
+   },
+   {
+    "name": "猎场护卫",
+    "enc": [
+     "bee",
+     "rattlesnake",
+     "horse"
+    ],
+    "fl": "刺剑、毒刃和惊骑"
+   }
+  ]
+ },
+ {
+  "id": 2,
+  "key": "high",
+  "name": "第二章 · 狮鹫高地",
+  "sub": "过了石桥就是高地。伐木营、哨塔、修道院；狮鹫堡里住着王国的先锋统帅——破阵王·铁冠。",
+  "start": "山口",
+  "boss": "ironcrown",
+  "bossNode": {
+   "name": "狮鹫堡",
+   "enc": [
+    "bigcat_lion",
+    "bigcat_lioness",
+    "grizzly_bear"
+   ]
+  },
+  "bazaar": "高地集市",
+  "market": "狮鹫集市",
+  "camp": "山洞篝火",
+  "easy": [
+   {
+    "name": "伐木营",
+    "enc": [
+     "hyena",
+     "lowyena",
+     "crab"
+    ],
+    "fl": "拾骨征伐兵越杀越快"
+   },
+   {
+    "name": "山地村",
+    "enc": [
+     "bigcat_cougar",
+     "ram",
+     "goat"
+    ],
+    "fl": "山地破甲兵"
+   },
+   {
+    "name": "哨塔",
+    "enc": [
+     "big_bee",
+     "raven",
+     "snapping_turtle"
+    ],
+    "fl": "断指盾卫会削弱攻击"
+   }
+  ],
+  "battles": [
+   {
+    "name": "修道院",
+    "enc": [
+     "rat_king",
+     "panda_bear",
+     "zombie_bear"
+    ],
+    "fl": "瘟烟苦修者"
+   },
+   {
+    "name": "狼骑营地",
+    "enc": [
+     "wolf_alpha",
+     "horse",
+     "horse_stallion"
+    ],
+    "fl": "追猎者专找伤兵"
+   },
+   {
+    "name": "矿洞",
+    "enc": [
+     "stab_crab",
+     "crab",
+     "jumbo_shrimp"
+    ],
+    "fl": "擒拿兵会缠住你"
+   },
+   {
+    "name": "王家猎场",
+    "enc": [
+     "bigcat_leopard",
+     "peregrine_falcon",
+     "seagull"
+    ],
+    "fl": "掠影决斗士"
+   },
+   {
+    "name": "采石场",
+    "enc": [
+     "gorilla",
+     "gorilla_silverback",
+     "kangaroo"
+    ],
+    "fl": "城垒重卫会掀飞你"
+   },
+   {
+    "name": "城下町",
+    "enc": [
+     "bigcat_lioness",
+     "honey_badger",
+     "king_cobra"
+    ],
+    "fl": "王廷侍剑士巡街"
+   },
+   {
+    "name": "驿道",
+    "enc": [
+     "cassowary",
+     "horse_stallion",
+     "rattlesnake"
+    ],
+    "fl": "旋刃突击兵"
+   },
+   {
+    "name": "关卡",
+    "enc": [
+     "grizzly_bear",
+     "wolf",
+     "snapping_turtle"
+    ],
+    "fl": "暴怒斧兵把守"
+   }
+  ],
+  "elites": [
+   {
+    "name": "军械库",
+    "enc": [
+     "shotgun_turtle",
+     "mantis_shrimp",
+     "moose"
+    ],
+    "fl": "火药和长枪",
+    "bm": 0.8
+   },
+   {
+    "name": "王廷前哨",
+    "enc": [
+     "bigcat_lioness",
+     "wolf_alpha",
+     "grizzly_bear"
+    ],
+    "fl": "侍剑士、追猎者和暴怒斧兵"
+   },
+   {
+    "name": "修道院地窖",
+    "enc": [
+     "zombie_bear",
+     "rat_king",
+     "jumbo_shrimp"
+    ],
+    "fl": "瘟烟和爆拳"
+   }
+  ]
+ },
+ {
+  "id": 3,
+  "key": "holy",
+  "name": "第三章 · 白塔圣域",
+  "sub": "圣域的尽头是白塔，圆桌骑士团在那里等着。白塔后面就是白冠王都——国王本人。",
+  "start": "圣域边境",
+  "boss": "roundtable",
+  "bossNode": {
+   "name": "白塔",
+   "enc": [
+    "duck_sized_horse",
+    "bigcat_lioness"
+   ]
+  },
+  "bazaar": "圣域集市",
+  "market": "王城集市",
+  "camp": "废墟篝火",
+  "easy": [
+   {
+    "name": "朝圣者营地",
+    "enc": [
+     "wherewolf",
+     "bullfrog",
+     "poison_dart_frog"
+    ],
+    "fl": "秘法协防卫会闪步袭杀"
+   },
+   {
+    "name": "钟楼",
+    "enc": [
+     "horse_sized_duck",
+     "big_bee",
+     "giga_wasp"
+    ],
+    "fl": "号角震波"
+   },
+   {
+    "name": "朝圣路",
+    "enc": [
+     "bullfrog",
+     "horse_sized_duck",
+     "king_cobra"
+    ],
+    "fl": "毒甲冲阵兵开路"
+   }
+  ],
+  "battles": [
+   {
+    "name": "圣泉",
+    "enc": [
+     "polar_bear",
+     "zombie_bear",
+     "bigcat_panther"
+    ],
+    "fl": "北境狂战士",
+    "bm": 0.9
+   },
+   {
+    "name": "大教堂",
+    "enc": [
+     "rhino",
+     "crocodile",
+     "king_cobra"
+    ],
+    "fl": "破城重骑兵",
+    "bm": 0.85
+   },
+   {
+    "name": "人类墓地",
+    "enc": [
+     "mega_croc",
+     "bigcat_sabertooth",
+     "hyena"
+    ],
+    "fl": "在这里打仗，亡灵很自在"
+   },
+   {
+    "name": "圣门",
+    "enc": [
+     "woolly_rhino",
+     "gorilla_diamondback",
+     "gorilla_silverback"
+    ],
+    "fl": "城垒卫队统领"
+   },
+   {
+    "name": "白塔外廊",
+    "enc": [
+     "mammoth",
+     "bigcat_lion",
+     "cassowary"
+    ],
+    "fl": "重装攻城车"
+   },
+   {
+    "name": "圣徒广场",
+    "enc": [
+     "wherewolf",
+     "cassowary",
+     "bigcat_lioness"
+    ],
+    "fl": "协防卫和旋刃突击兵"
+   },
+   {
+    "name": "白塔马厩",
+    "enc": [
+     "horse_stallion",
+     "bigcat_leopard",
+     "giga_wasp"
+    ],
+    "fl": "惊骑队长和猎锋轻剑士"
+   }
+  ],
+  "elites": [
+   {
+    "name": "骑士团驻地",
+    "enc": [
+     "horse_unicorn",
+     "bigcat_tiger",
+     "Kung Roo"
+    ],
+    "fl": "星辉骑卫"
+   },
+   {
+    "name": "审判所",
+    "enc": [
+     "demon_goat",
+     "porcupine",
+     "rat_king"
+    ],
+    "fl": "焚罪大审判官亲自坐镇"
+   },
+   {
+    "name": "圣骑营",
+    "enc": [
+     "horse_unicorn",
+     "bigcat_tiger",
+     "bigcat_lion"
+    ],
+    "fl": "圆桌的后备队",
+    "bm": 0.9
+   }
+  ]
+ }
+]

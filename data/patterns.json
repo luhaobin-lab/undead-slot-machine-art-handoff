@@ -1,0 +1,171 @@
+[
+ {
+  "id": "l3",
+  "name": "直线阵3",
+  "mult": 1,
+  "shape": [
+   "XXX"
+  ],
+  "fixed": false
+ },
+ {
+  "id": "l4",
+  "name": "直线阵4",
+  "mult": 2,
+  "shape": [
+   "XXXX"
+  ],
+  "fixed": false
+ },
+ {
+  "id": "s2",
+  "name": "方阵2×2",
+  "mult": 3,
+  "shape": [
+   "XX",
+   "XX"
+  ],
+  "fixed": false
+ },
+ {
+  "id": "l5",
+  "name": "直线阵5",
+  "mult": 4,
+  "shape": [
+   "XXXXX"
+  ],
+  "fixed": false
+ },
+ {
+  "id": "x5",
+  "name": "十字阵5",
+  "mult": 5,
+  "shape": [
+   ".X.",
+   "XXX",
+   ".X."
+  ],
+  "fixed": false
+ },
+ {
+  "id": "r32",
+  "name": "密集阵3×2",
+  "mult": 6,
+  "shape": [
+   "XXX",
+   "XXX"
+  ],
+  "fixed": false
+ },
+ {
+  "id": "c",
+  "name": "骨爪阵(C形)",
+  "mult": 8,
+  "shape": [
+   "XXX",
+   "X..",
+   "XXX"
+  ],
+  "fixed": true
+ },
+ {
+  "id": "rc",
+  "name": "骨爪阵(反C形)",
+  "mult": 8,
+  "shape": [
+   "XXX",
+   "..X",
+   "XXX"
+  ],
+  "fixed": true
+ },
+ {
+  "id": "x8",
+  "name": "大十字阵8",
+  "mult": 10,
+  "shape": [
+   "..X..",
+   "XXXXX",
+   "..X..",
+   "..X.."
+  ],
+  "fixed": false
+ },
+ {
+  "id": "r42",
+  "name": "密集阵4×2",
+  "mult": 12,
+  "shape": [
+   "XXXX",
+   "XXXX"
+  ],
+  "fixed": false
+ },
+ {
+  "id": "r52",
+  "name": "密集阵5×2",
+  "mult": 16,
+  "shape": [
+   "XXXXX",
+   "XXXXX"
+  ],
+  "fixed": false
+ },
+ {
+  "id": "s3",
+  "name": "方阵3×3",
+  "mult": 20,
+  "shape": [
+   "XXX",
+   "XXX",
+   "XXX"
+  ],
+  "fixed": false
+ },
+ {
+  "id": "r43",
+  "name": "密集阵4×3",
+  "mult": 30,
+  "shape": [
+   "XXXX",
+   "XXXX",
+   "XXXX"
+  ],
+  "fixed": false
+ },
+ {
+  "id": "r53",
+  "name": "密集阵5×3",
+  "mult": 40,
+  "shape": [
+   "XXXXX",
+   "XXXXX",
+   "XXXXX"
+  ],
+  "fixed": false
+ },
+ {
+  "id": "s4",
+  "name": "方阵4×4",
+  "mult": 60,
+  "shape": [
+   "XXXX",
+   "XXXX",
+   "XXXX",
+   "XXXX"
+  ],
+  "fixed": false
+ },
+ {
+  "id": "full",
+  "name": "全军阵5×4",
+  "mult": 100,
+  "shape": [
+   "XXXXX",
+   "XXXXX",
+   "XXXXX",
+   "XXXXX"
+  ],
+  "fixed": false
+ }
+]

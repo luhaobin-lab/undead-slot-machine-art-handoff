@@ -1,0 +1,421 @@
+{
+ "bossDefs": [
+  {
+   "id": "b_warlord",
+   "name": "千垒督军",
+   "tier": "首领",
+   "ai": "heavy",
+   "bone": 30,
+   "stats": {
+    "hp": 1400,
+    "attack": 26,
+    "attack_speed": 0.8,
+    "run_speed": 9,
+    "range_px": 36
+   },
+   "traits": [
+    "t_killipede",
+    "b_train",
+    "b_wrath",
+    "t_trample",
+    "t_huge"
+   ],
+   "look": {
+    "b": "#5a4a6a",
+    "d": "#3a2a4a",
+    "t": "#d4a84a",
+    "h": "crown",
+    "hc": "#d4a84a",
+    "w": "great",
+    "m": "chariot",
+    "mc": "#6a4a2a",
+    "k": 1.55
+   }
+  },
+  {
+   "id": "b_wagon",
+   "name": "护阵辎车",
+   "tier": "首领",
+   "ai": "heavy",
+   "bone": 4,
+   "stats": {
+    "hp": 320,
+    "attack": 10,
+    "attack_speed": 0.8,
+    "run_speed": 9,
+    "range_px": 32
+   },
+   "traits": [
+    "t_trample",
+    "t_huge"
+   ],
+   "look": {
+    "b": "#7a5a3a",
+    "d": "#4a3420",
+    "t": "#b03a3a",
+    "h": "none",
+    "w": "",
+    "m": "wagon",
+    "mc": "#8a6a40",
+    "k": 1.2
+   }
+  },
+  {
+   "id": "b_ironcrown",
+   "name": "破阵王·铁冠",
+   "tier": "首领",
+   "ai": "charge",
+   "bone": 30,
+   "stats": {
+    "hp": 3000,
+    "attack": 34,
+    "attack_speed": 0.9,
+    "run_speed": 14,
+    "range_px": 36
+   },
+   "traits": [
+    "trait_charger",
+    "b_crown",
+    "b_rally",
+    "t_primal_rage",
+    "t_sharp_claws"
+   ],
+   "look": {
+    "b": "#3a3a4a",
+    "d": "#1e1e2a",
+    "t": "#d4a84a",
+    "h": "crown",
+    "hc": "#d4a84a",
+    "w": "great",
+    "o": "cape",
+    "oc": "#8a1a2a",
+    "m": "barded",
+    "mc": "#6a6a7a",
+    "k": 1.6
+   }
+  },
+  {
+   "id": "rk_lancelot",
+   "name": "兰斯洛特",
+   "title": "湖上骑士",
+   "tier": "首领",
+   "ai": "dive",
+   "bone": 10,
+   "stats": {
+    "hp": 900,
+    "attack": 30,
+    "attack_speed": 1.2,
+    "run_speed": 18,
+    "range_px": 32
+   },
+   "traits": [
+    "t_phased",
+    "trait_slashing_rampage",
+    "b_oath"
+   ],
+   "look": {
+    "b": "#a8b8d0",
+    "d": "#5a6a8a",
+    "t": "#3a5aa8",
+    "h": "plume",
+    "hc": "#3a5aa8",
+    "w": "sword",
+    "m": "barded",
+    "mc": "#8a98b0",
+    "k": 1.3
+   }
+  },
+  {
+   "id": "rk_gawain",
+   "name": "高文",
+   "title": "日轮骑士",
+   "tier": "首领",
+   "ai": "charge",
+   "bone": 10,
+   "stats": {
+    "hp": 1100,
+    "attack": 28,
+    "attack_speed": 1,
+    "run_speed": 14,
+    "range_px": 32
+   },
+   "traits": [
+    "b_sun",
+    "trait_stable",
+    "b_oath"
+   ],
+   "look": {
+    "b": "#d0a040",
+    "d": "#8a5a20",
+    "t": "#c0301a",
+    "h": "crest",
+    "hc": "#ffb02e",
+    "w": "mace",
+    "o": "round",
+    "oc": "#c0301a",
+    "m": "barded",
+    "mc": "#d0b070",
+    "k": 1.3
+   }
+  },
+  {
+   "id": "rk_galahad",
+   "name": "加拉哈德",
+   "title": "圣杯骑士",
+   "tier": "首领",
+   "ai": "line",
+   "bone": 10,
+   "stats": {
+    "hp": 1000,
+    "attack": 26,
+    "attack_speed": 1,
+    "run_speed": 14,
+    "range_px": 32
+   },
+   "traits": [
+    "t_starburst",
+    "trait_quills",
+    "b_oath"
+   ],
+   "look": {
+    "b": "#f0f0f0",
+    "d": "#b0b0c0",
+    "t": "#ffd24a",
+    "h": "helm",
+    "hc": "#e8e8f8",
+    "w": "great",
+    "m": "unicorn",
+    "mc": "#f0f0f8",
+    "k": 1.3
+   }
+  },
+  {
+   "id": "rk_percival",
+   "name": "珀西瓦尔",
+   "title": "追猎骑士",
+   "tier": "首领",
+   "ai": "hunter",
+   "bone": 10,
+   "stats": {
+    "hp": 850,
+    "attack": 28,
+    "attack_speed": 1.1,
+    "run_speed": 20,
+    "range_px": 32
+   },
+   "traits": [
+    "t_hunter",
+    "t_sharp_horn",
+    "b_oath"
+   ],
+   "look": {
+    "b": "#4a7a3a",
+    "d": "#2a4a20",
+    "t": "#c8a040",
+    "h": "feather",
+    "hc": "#4a7a3a",
+    "w": "lance",
+    "m": "horse",
+    "mc": "#7a5030",
+    "k": 1.3
+   }
+  },
+  {
+   "id": "rk_kay",
+   "name": "凯",
+   "title": "管家骑士",
+   "tier": "首领",
+   "ai": "guard",
+   "bone": 10,
+   "stats": {
+    "hp": 1300,
+    "attack": 24,
+    "attack_speed": 0.9,
+    "run_speed": 11,
+    "range_px": 32
+   },
+   "traits": [
+    "t_shotgun_shell",
+    "trait_stable",
+    "b_oath"
+   ],
+   "look": {
+    "b": "#7a6a5a",
+    "d": "#4a3a2a",
+    "t": "#c8a070",
+    "h": "kettle",
+    "hc": "#8a8a8a",
+    "w": "mace",
+    "o": "tower",
+    "oc": "#6a5a4a",
+    "k": 1.35
+   }
+  },
+  {
+   "id": "rk_tristan",
+   "name": "崔斯坦",
+   "title": "弓骑士",
+   "tier": "首领",
+   "ai": "back",
+   "bone": 10,
+   "stats": {
+    "hp": 750,
+    "attack": 26,
+    "attack_speed": 1,
+    "run_speed": 16,
+    "range_px": 200
+   },
+   "traits": [
+    "b_ranged",
+    "trait_mudslinger",
+    "evasive",
+    "b_oath"
+   ],
+   "look": {
+    "b": "#2a5a4a",
+    "d": "#1a3a2a",
+    "t": "#d4a84a",
+    "h": "hood",
+    "hc": "#2a5a4a",
+    "w": "bow",
+    "m": "horse",
+    "mc": "#6a4a2a",
+    "k": 1.3
+   }
+  },
+  {
+   "id": "b_king",
+   "name": "国王·白冠",
+   "tier": "首领",
+   "ai": "heavy",
+   "bone": 40,
+   "stats": {
+    "hp": 6000,
+    "attack": 46,
+    "attack_speed": 1,
+    "run_speed": 10,
+    "range_px": 40
+   },
+   "traits": [
+    "b_king",
+    "b_judge",
+    "b_guard",
+    "b_grief",
+    "t_huge"
+   ],
+   "look": {
+    "b": "#e8e0d0",
+    "d": "#a89870",
+    "t": "#d4a84a",
+    "h": "crown",
+    "hc": "#ffd24a",
+    "w": "great",
+    "o": "cape",
+    "oc": "#8a1a2a",
+    "k": 1.95
+   }
+  },
+  {
+   "id": "b_heir",
+   "name": "圣座继承人",
+   "tier": "首领",
+   "ai": "back",
+   "bone": 20,
+   "stats": {
+    "hp": 1800,
+    "attack": 16,
+    "attack_speed": 1,
+    "run_speed": 11,
+    "range_px": 220
+   },
+   "traits": [
+    "b_ranged",
+    "b_bless"
+   ],
+   "look": {
+    "b": "#f0ead8",
+    "d": "#c8b890",
+    "t": "#d4a84a",
+    "h": "mitre",
+    "hc": "#f0ead8",
+    "w": "staff",
+    "k": 1.4
+   }
+  }
+ ],
+ "bossInfo": {
+  "warlord": {
+   "name": "千垒督军",
+   "place": "石桥镇",
+   "icon": "b_warlord",
+   "lines": [
+    "尾节护阵：车首受到的伤害 99% 转给最后一节护卫车",
+    "6 节护卫车跟着车首蛇形前进，碾过亡灵会让他们短暂眩晕",
+    "每少一节车，车首更快、更狠"
+   ],
+   "tip": "范围伤害、顺劈能同时打到好几节车；先拆车尾"
+  },
+  "ironcrown": {
+   "name": "破阵王·铁冠",
+   "place": "狮鹫堡",
+   "icon": "b_ironcrown",
+   "lines": [
+    "列阵冲锋：周期性冲穿亡灵阵线、把人撞飞",
+    "铁冠号令：每 9 秒全体人类攻速 +30%",
+    "半血时吹响援军号角：4 名王廷侍剑士",
+    "王廷血誓：近卫倒下时王廷重剑士变强"
+   ],
+   "tip": "后排要有人保护；输出越集中越好"
+  },
+  "roundtable": {
+   "name": "圆桌骑士团",
+   "place": "白塔",
+   "icon": "rk_lancelot",
+   "lines": [
+    "6 名骑士各有招牌特性：闪步袭杀、日轮加护、星辉爆破、追猎伤兵、震盾爆药、远程泥弹",
+    "圆桌誓约：每倒下一名骑士，其余骑士回复 25% 生命、攻击 +15%"
+   ],
+   "tip": "越到后面剩下的骑士越强：要有持续输出"
+  },
+  "king": {
+   "name": "国王·白冠",
+   "place": "白冠王都",
+   "icon": "b_king",
+   "lines": [
+    "三波连打，中间不进商店（每波之间照常拉杆、拿遗物）",
+    "第 1 波 外城城门：攻城车 + 城垒卫队",
+    "第 2 波 王宫正门：御前卫队 + 星辉骑卫",
+    "第 3 波 王座厅：国王（王者号令、王剑审判、御前召集）+ 圣座继承人（护盾、治疗）"
+   ],
+   "tip": "继承人先倒下，国王会狂怒"
+  }
+ },
+ "finalWaves": [
+  {
+   "name": "外城城门",
+   "enc": [
+    "elephant",
+    "giant_moose",
+    "hippo",
+    "gorilla",
+    "gorilla_silverback"
+   ]
+  },
+  {
+   "name": "王宫正门",
+   "enc": [
+    "bigcat_lion",
+    "bigcat_lioness",
+    "horse_unicorn",
+    "gorilla_diamondback"
+   ]
+  },
+  {
+   "name": "王座厅",
+   "enc": [
+    "bigcat_lion",
+    "bigcat_lioness"
+   ]
+  }
+ ]
+}

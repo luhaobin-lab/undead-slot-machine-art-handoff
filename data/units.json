@@ -1,0 +1,557 @@
+{
+ "units": [
+  {
+   "id": "zombie",
+   "name": "饥腐行尸",
+   "family": "undead",
+   "familyName": "古冢亡族",
+   "ability": "腐尸饥渴",
+   "abilityDesc": "当他接受治疗时，有15%的概率嘲讽3个附近敌人，持续3秒。饥腐行尸在陷入昏迷后仅需1个回合即可恢复。",
+   "color": "#5a9a3a",
+   "role": "受治疗触发 · 同类群聚 · 群体复活",
+   "ai": "swarm",
+   "aiName": "分散包围",
+   "stats": {
+    "speed": 0.65,
+    "damage": 15.384615384615383,
+    "hpmax": 200,
+    "dps": 20,
+    "attack_speed": 1.3
+   },
+   "tags": [
+    "受治疗触发",
+    "同类群聚",
+    "群体复活"
+   ],
+   "relics": [
+    "expired_skin_cream",
+    "explosive_innards",
+    "r_old_jacket",
+    "r_old_tooth",
+    "talking_head",
+    "tattered_shoes",
+    "willing_flesh"
+   ]
+  },
+  {
+   "id": "frankendude",
+   "name": "丧尸巨人",
+   "family": "undead",
+   "familyName": "古冢亡族",
+   "ability": "共生血泵",
+   "abilityDesc": "丧尸巨人拥有很高的天生再生。每秒，他会将当前生命值的10%捐赠给2名伤势最重的在册亡灵，由他们均摊。",
+   "color": "#2f8f80",
+   "role": "生命捐赠 · 再生 · 牺牲救命",
+   "ai": "charge",
+   "aiName": "正面冲阵",
+   "stats": {
+    "speed": 0.5,
+    "damage": 16.666666666666668,
+    "hpmax": 180,
+    "dps": 20,
+    "attack_speed": 1.2,
+    "regeneration": 0.05,
+    "cleave": 0.5
+   },
+   "tags": [
+    "生命捐赠",
+    "再生",
+    "牺牲救命"
+   ],
+   "relics": [
+    "bone_broth",
+    "brain_in_a_jar",
+    "copper_bolts",
+    "leaky_heart_valve",
+    "organ_bucket",
+    "organ_donor_list",
+    "r_jaw_implant"
+   ]
+  },
+  {
+   "id": "necromancer",
+   "name": "唤骨法师",
+   "family": "undead",
+   "familyName": "古冢亡族",
+   "ability": "白骨唤役",
+   "abilityDesc": "战斗开始时，唤骨法师会召唤一个白骨仆从。当他的白骨仆从被击倒时，唤骨法师会在6秒后召唤一个新的。",
+   "color": "#8a45c8",
+   "role": "召唤循环 · 致命触发 · 数量成长",
+   "ai": "back",
+   "aiName": "后排压阵",
+   "stats": {
+    "speed": 0.8,
+    "damage": 15.384615384615383,
+    "hpmax": 120,
+    "dps": 20,
+    "attack_speed": 1.3
+   },
+   "tags": [
+    "召唤循环",
+    "致命触发",
+    "数量成长"
+   ],
+   "relics": [
+    "bone_axe",
+    "bony_backhand",
+    "calcium_pills",
+    "flaming_skull",
+    "frenzy_stone",
+    "necronomicon",
+    "r_marrow_scooper"
+   ]
+  },
+  {
+   "id": "vampire",
+   "name": "血宴伯爵",
+   "family": "undead",
+   "familyName": "古冢亡族",
+   "ability": "血宴赐福",
+   "abilityDesc": "当血宴伯爵进行生命窃取时，他会将自己的血宴赐福施加给2名随机的在册亡灵，赋予其2%生命窃取，持续4秒。此效果最多叠加4次。",
+   "color": "#c0453f",
+   "role": "概率吸血 · 增益传播 · 攻击转治疗",
+   "ai": "dive",
+   "aiName": "绕后突袭",
+   "stats": {
+    "speed": 1,
+    "damage": 9.166666666666668,
+    "hpmax": 120,
+    "dps": 22,
+    "lifesteal": 0.25,
+    "attack_speed": 2.4
+   },
+   "tags": [
+    "概率吸血",
+    "增益传播",
+    "攻击转治疗"
+   ],
+   "relics": [
+    "bat_wings",
+    "blood_bag",
+    "blood_siphon",
+    "hollow_fangs",
+    "shadow_skin",
+    "soul_reliquary",
+    "venomous_lipstick"
+   ]
+  },
+  {
+   "id": "mummy",
+   "name": "咒布古尸",
+   "family": "undead",
+   "familyName": "古冢亡族",
+   "ability": "墓咒清算",
+   "abilityDesc": "他造成的所有直接伤害都会生成等量的墓咒，并蓄积在目标身上。当目标的生命值降至其墓咒值以下时，诅咒便会触发，并将伤害释出到目标身上。",
+   "color": "#b8862a",
+   "role": "蓄积墓咒 · 延迟清算 · 扩散",
+   "ai": "flank",
+   "aiName": "侧翼包抄",
+   "stats": {
+    "speed": 0.7,
+    "damage": 8,
+    "hpmax": 130,
+    "dps": 16,
+    "attack_speed": 2
+   },
+   "tags": [
+    "蓄积墓咒",
+    "延迟清算",
+    "扩散"
+   ],
+   "relics": [
+    "r_anubis_statue",
+    "r_canopic_jar",
+    "r_embalming_salt",
+    "r_golden_tongue",
+    "r_sandstorm",
+    "r_sarcophagus",
+    "r_scarabs"
+   ]
+  },
+  {
+   "id": "lich",
+   "name": "缚命巫妖",
+   "family": "undead",
+   "familyName": "古冢亡族",
+   "ability": "缚命摄魂",
+   "abilityDesc": "缚命巫妖承受伤害的70%会转而被蓄积在他的缚命傀儡体内。每隔3秒，蓄积伤害会作为真实伤害释出到缚命傀儡身上。如果该伤害成功致命，则该缚命傀儡将获得50%生命值的治疗，并获得一层还魂怒火效果。",
+   "color": "#3aa8d8",
+   "role": "左邻傀儡 · 转存伤害 · 还魂怒火",
+   "ai": "line",
+   "aiName": "列阵推进",
+   "stats": {
+    "speed": 1,
+    "damage": 10,
+    "hpmax": 160,
+    "dps": 20,
+    "attack_speed": 2
+   },
+   "tags": [
+    "左邻傀儡",
+    "转存伤害",
+    "还魂怒火"
+   ],
+   "relics": [
+    "r_bag_of_bones",
+    "r_marrow_leech",
+    "r_scales_of_death",
+    "r_scythe",
+    "r_soul_chain",
+    "r_spirit_bomb",
+    "r_unholy_grail"
+   ]
+  },
+  {
+   "id": "chef",
+   "name": "熬骨厨尸",
+   "family": "employed",
+   "familyName": "墓园役团",
+   "ability": "骨髓羹",
+   "abilityDesc": "造成直接伤害时，他会制作一个骨髓羹。骨髓羹能够提供相当于其攻击力70%的治疗。他最多可同时备好4个骨髓羹，并根据需要将其派送给在册亡灵。",
+   "color": "#d08a40",
+   "role": "直伤备餐 · 治疗增益 · 库存",
+   "ai": "support",
+   "aiName": "跟随支援",
+   "stats": {
+    "speed": 1.2,
+    "damage": 16.666666666666668,
+    "hpmax": 120,
+    "dps": 20,
+    "attack_speed": 1.2,
+    "crit_chance": 0.05
+   },
+   "tags": [
+    "直伤备餐",
+    "治疗增益",
+    "库存"
+   ],
+   "relics": [
+    "r_catering_truck",
+    "r_milkshake",
+    "r_mise_en_place",
+    "r_oregano",
+    "r_rush_order",
+    "r_special_sauce",
+    "r_waffle_fries"
+   ]
+  },
+  {
+   "id": "electrician",
+   "name": "引雷尸匠",
+   "family": "employed",
+   "familyName": "墓园役团",
+   "ability": "阴雷迸发",
+   "abilityDesc": "引雷尸匠造成直接伤害时会获得一层雷印。达到10层或以上雷印时，下一次攻击将释放阴雷冲击，将他自己击飞，并根据雷印层数对目标造成伤害，每层造成相当于40%攻击力的伤害。",
+   "color": "#d8b020",
+   "role": "直伤蓄雷 · 攻击释放 · 移动",
+   "ai": "flank",
+   "aiName": "侧翼包抄",
+   "stats": {
+    "speed": 1,
+    "damage": 9.615384615384615,
+    "hpmax": 120,
+    "dps": 25,
+    "attack_speed": 2.6,
+    "crit_chance": 0.05
+   },
+   "tags": [
+    "直伤蓄雷",
+    "攻击释放",
+    "移动"
+   ],
+   "relics": [
+    "r_circuit_breaker",
+    "r_conduit",
+    "r_electrical_tape",
+    "r_fuzzy_socks",
+    "r_ground_wire",
+    "r_lightning_rod",
+    "r_wire_stripper"
+   ]
+  },
+  {
+   "id": "alien",
+   "name": "引魂使者",
+   "family": "scifi",
+   "familyName": "缝魂造物",
+   "ability": "引魂灯",
+   "abilityDesc": "每隔3秒便会借魂光传送一个在出战名册中前一位的兵种的亡灵，并强制该亡灵向生命值最低的敌人冲刺并进行攻击。",
+   "color": "#38b898",
+   "role": "右邻冲刺 · 生命均摊 · 偏转",
+   "ai": "support",
+   "aiName": "跟随支援",
+   "stats": {
+    "speed": 1,
+    "damage": 10,
+    "hpmax": 130,
+    "dps": 20,
+    "deflection": 0.1,
+    "attack_speed": 2
+   },
+   "tags": [
+    "右邻冲刺",
+    "生命均摊",
+    "偏转"
+   ],
+   "relics": [
+    "r_beam_splitter",
+    "r_brain_implant",
+    "r_dissection_kit",
+    "r_inertia_bubble",
+    "r_probe",
+    "r_rad_infusion",
+    "r_ufo_wax"
+   ]
+  },
+  {
+   "id": "wizard",
+   "name": "冥火巫师",
+   "family": "fantasy",
+   "familyName": "幽墓秘会",
+   "ability": "冥火球术",
+   "abilityDesc": "冥火巫师每3秒便会向随机敌人施放一颗冥火球，对爆炸区域内的所有敌人造成相当于其秒伤50%的伤害。",
+   "color": "#7a5ae0",
+   "role": "定时火球 · 移动施法 · 连锁",
+   "ai": "back",
+   "aiName": "后排压阵",
+   "stats": {
+    "speed": 1,
+    "damage": 10,
+    "hpmax": 111,
+    "dps": 20,
+    "attack_speed": 2,
+    "crit_chance": 0.1
+   },
+   "tags": [
+    "定时火球",
+    "移动施法",
+    "连锁"
+   ],
+   "relics": [
+    "r_arcane_monocle",
+    "r_ember_staff",
+    "r_enchanted_girdle",
+    "r_everburning_torch",
+    "r_lava_pendant",
+    "r_spell_book",
+    "r_two_sided_scroll"
+   ]
+  },
+  {
+   "id": "general",
+   "name": "骸骨统帅",
+   "family": "warrior",
+   "familyName": "冥铠军团",
+   "ability": "冥军号令",
+   "abilityDesc": "每4秒，他会命令出战名册中紧随其后的兵种中的一名随机亡灵去嘲讽最多3个附近的敌人。",
+   "color": "#d0602a",
+   "role": "左邻号令 · 嘲讽联动 · 独立增益",
+   "ai": "support",
+   "aiName": "跟随支援",
+   "stats": {
+    "toughness": 0.1,
+    "speed": 1,
+    "damage": 10,
+    "hpmax": 120,
+    "dps": 20,
+    "attack_speed": 2,
+    "crit_chance": 0.05
+   },
+   "tags": [
+    "左邻号令",
+    "嘲讽联动",
+    "独立增益"
+   ],
+   "relics": [
+    "booming_voice",
+    "combat_boots",
+    "combat_radio",
+    "frilled_shoulderpads",
+    "gold_star",
+    "imposing_podium",
+    "r_heroic_medal"
+   ]
+  },
+  {
+   "id": "knight",
+   "name": "黑棺重卫",
+   "family": "warrior",
+   "familyName": "冥铠军团",
+   "ability": "棺前叫阵",
+   "abilityDesc": "每3秒，黑棺重卫会嘲讽最多5名附近的敌人，迫使他们集中攻击自己。",
+   "color": "#7a7a98",
+   "role": "反复嘲讽 · 临时生命值 · 直伤暴击",
+   "ai": "guard",
+   "aiName": "护卫拦截",
+   "stats": {
+    "speed": 0.75,
+    "damage": 12.5,
+    "hpmax": 230,
+    "dps": 20,
+    "attack_speed": 1.6,
+    "crit_chance": 0.05
+   },
+   "tags": [
+    "反复嘲讽",
+    "临时生命值",
+    "直伤暴击"
+   ],
+   "relics": [
+    "bagpipes",
+    "belted_greaves",
+    "blacksmith_hammer",
+    "chestplate",
+    "r_ablative_shield",
+    "scroll_of_mockery",
+    "sturdy_helmet"
+   ]
+  }
+ ],
+ "skeleton": {
+  "id": "skeleton",
+  "name": "白骨仆从",
+  "stats": {
+   "hpmax": 80,
+   "dps": 12,
+   "damage": 6,
+   "attack_speed": 2,
+   "speed": 1
+  }
+ },
+ "families": {
+  "undead": "古冢亡族",
+  "employed": "墓园役团",
+  "scifi": "缝魂造物",
+  "fantasy": "幽墓秘会",
+  "warrior": "冥铠军团"
+ },
+ "combos": [
+  {
+   "id": "skel",
+   "name": "骷髅接力",
+   "lanes": [
+    "necromancer",
+    "zombie",
+    "knight"
+   ],
+   "core": [
+    "bony_backhand",
+    "calcium_pills",
+    "necronomicon"
+   ],
+   "gift": "bony_backhand",
+   "desc": "白骨出场就嘲讽，嘲讽又能召来更多白骨；白骨倒下时治疗全队，行尸被治疗还会嘲讽。"
+  },
+  {
+   "id": "heal",
+   "name": "治疗转伤害",
+   "lanes": [
+    "chef",
+    "zombie",
+    "vampire"
+   ],
+   "core": [
+    "expired_skin_cream",
+    "blood_bag",
+    "r_mise_en_place"
+   ],
+   "gift": "expired_skin_cream",
+   "desc": "骨髓羹和伯爵的吸血都能治疗行尸，行尸把受到的治疗变成周围敌人的伤害。"
+  },
+  {
+   "id": "thrall",
+   "name": "傀儡成长",
+   "lanes": [
+    "vampire",
+    "lich",
+    "knight"
+   ],
+   "core": [
+    "r_scythe",
+    "r_soul_chain",
+    "r_unholy_grail"
+   ],
+   "gift": "r_soul_chain",
+   "desc": "巫妖把承伤存进左边伯爵的体内，致命时伯爵获得还魂怒火，越打越强；右边的重卫也能分罪。"
+  },
+  {
+   "id": "fire",
+   "name": "移动火球",
+   "lanes": [
+    "alien",
+    "wizard",
+    "knight"
+   ],
+   "core": [
+    "r_spell_book",
+    "r_everburning_torch",
+    "r_inertia_bubble"
+   ],
+   "desc": "引魂使者把右边的巫师拉去冲刺，冲刺距离换成额外冥火球，火球再给巫师临时生命。"
+  },
+  {
+   "id": "volt",
+   "name": "移动雷电",
+   "lanes": [
+    "alien",
+    "electrician",
+    "frankendude"
+   ],
+   "core": [
+    "r_fuzzy_socks",
+    "r_ground_wire",
+    "r_conduit"
+   ],
+   "desc": "引魂使者拉着尸匠冲刺攒雷印，满 10 层放电；接魂线让尸匠被击飞也不眩晕。"
+  },
+  {
+   "id": "temp",
+   "name": "临时生命转攻击",
+   "lanes": [
+    "knight",
+    "general",
+    "vampire"
+   ],
+   "core": [
+    "r_ablative_shield",
+    "blacksmith_hammer",
+    "frilled_shoulderpads"
+   ],
+   "desc": "统帅号令左边的重卫，治疗与号令变成临时生命，重卫暴击时按临时生命追加伤害。"
+  },
+  {
+   "id": "focus",
+   "name": "号令集中",
+   "lanes": [
+    "vampire",
+    "general",
+    "frankendude"
+   ],
+   "core": [
+    "combat_radio",
+    "hollow_fangs",
+    "bone_broth"
+   ],
+   "desc": "统帅把独立叠加的攻击、暴击和顺劈集中在左边少数几名伯爵身上；巨人负责续命。"
+  },
+  {
+   "id": "doom",
+   "name": "号令积咒",
+   "lanes": [
+    "mummy",
+    "general",
+    "knight"
+   ],
+   "core": [
+    "combat_radio",
+    "r_scarabs",
+    "r_embalming_salt"
+   ],
+   "gift": [
+    "combat_radio",
+    "r_scarabs"
+   ],
+   "desc": "号令给左边的古尸顺劈，一次给多个敌人积墓咒，清算时再扩散到别人身上。"
+  }
+ ]
+}

@@ -1,0 +1,942 @@
+[
+ {
+  "id": "expired_skin_cream",
+  "name": "溃烂尸蜡",
+  "owner": "zombie",
+  "ownerName": "饥腐行尸",
+  "shared": false,
+  "core": true,
+  "desc": "当饥腐行尸受到治疗时，他对周围敌人造成相当于所受治疗量200%的伤害，其伤害由被命中的敌人均摊。",
+  "partial": null
+ },
+ {
+  "id": "explosive_innards",
+  "name": "胀毒尸囊",
+  "owner": "zombie",
+  "ownerName": "饥腐行尸",
+  "shared": false,
+  "core": false,
+  "desc": "饥腐行尸在受到直接伤害时有0.5%的概率爆炸，对周围敌人造成相当于其最大生命值200%的伤害。这次爆炸会使饥腐行尸被击倒。",
+  "partial": null
+ },
+ {
+  "id": "r_old_jacket",
+  "name": "裹尸旧衣",
+  "owner": "zombie",
+  "ownerName": "饥腐行尸",
+  "shared": false,
+  "core": false,
+  "desc": "饥腐行尸获得20%最大生命值和+30%受治疗效果。",
+  "partial": null
+ },
+ {
+  "id": "r_old_tooth",
+  "name": "群饥断齿",
+  "owner": "zombie",
+  "ownerName": "饥腐行尸",
+  "shared": false,
+  "core": false,
+  "desc": "在战斗中，饥腐行尸的附近每有一名其他饥腐行尸，便获得20%攻击力和+2%受治疗效果。该效果最多叠加5次。",
+  "partial": null
+ },
+ {
+  "id": "talking_head",
+  "name": "寄生颅瘤",
+  "owner": "zombie",
+  "ownerName": "饥腐行尸",
+  "shared": false,
+  "core": false,
+  "desc": "饥腐行尸获得20%最大生命值和4%再生。",
+  "partial": null
+ },
+ {
+  "id": "tattered_shoes",
+  "name": "尸群行脚布",
+  "owner": "zombie",
+  "ownerName": "饥腐行尸",
+  "shared": false,
+  "core": false,
+  "desc": "队伍中每有一名饥腐行尸，所有亡灵获得5%移速和2%最大生命值。此效果最多叠加5次。",
+  "partial": null
+ },
+ {
+  "id": "willing_flesh",
+  "name": "不息尸心",
+  "owner": "zombie",
+  "ownerName": "饥腐行尸",
+  "shared": false,
+  "core": false,
+  "desc": "饥腐行尸受治疗效果提升15%。当任何饥腐行尸被击倒时，有5%的概率使所有昏迷的饥腐行尸以满生命值立即复活。全局冷却：4秒。",
+  "partial": null
+ },
+ {
+  "id": "bone_broth",
+  "name": "续命髓汤",
+  "owner": "frankendude",
+  "ownerName": "丧尸巨人",
+  "shared": false,
+  "core": true,
+  "desc": "丧尸巨人的共生血泵现在还会为向后顺延的2名伤势最重的在册亡灵分别提供相当于所捐赠生命值30%的治疗。",
+  "partial": null
+ },
+ {
+  "id": "brain_in_a_jar",
+  "name": "寄雷颅罐",
+  "owner": "frankendude",
+  "ownerName": "丧尸巨人",
+  "shared": false,
+  "core": false,
+  "desc": "丧尸巨人获得4%再生。当他通过共生血泵向一名亡灵捐赠生命值时，他还会对附近的一个敌人造成相当于其秒伤10%的直接伤害。",
+  "partial": null
+ },
+ {
+  "id": "copper_bolts",
+  "name": "驱尸铜栓",
+  "owner": "frankendude",
+  "ownerName": "丧尸巨人",
+  "shared": false,
+  "core": false,
+  "desc": "丧尸巨人获得30%攻速。当他造成直接伤害时，有20%的概率获得1%再生，持续3秒，最多叠加6次。",
+  "partial": null
+ },
+ {
+  "id": "leaky_heart_valve",
+  "name": "双生心瓣",
+  "owner": "frankendude",
+  "ownerName": "丧尸巨人",
+  "shared": false,
+  "core": false,
+  "desc": "丧尸巨人获得30%最大生命值，且他的共生血泵提供3%韧性和4%攻速，持续5秒，最多叠加5次。",
+  "partial": null
+ },
+ {
+  "id": "organ_bucket",
+  "name": "饥行脏器桶",
+  "owner": "frankendude",
+  "ownerName": "丧尸巨人",
+  "shared": false,
+  "core": false,
+  "desc": "丧尸巨人获得100%移速和5%再生。此外在战斗期间，队伍中每有一名昏迷的亡灵，他便获得5%攻击力。",
+  "partial": null
+ },
+ {
+  "id": "organ_donor_list",
+  "name": "共命血书",
+  "owner": "frankendude",
+  "ownerName": "丧尸巨人",
+  "shared": false,
+  "core": false,
+  "desc": "丧尸巨人的共生血泵现在会额外捐赠其生命值的10%。当一名在册亡灵受到致命伤害时，拥有至少30%生命值且最健康的丧尸巨人会捐赠自己当前生命值的50%来拯救他。冷却：15秒。",
+  "partial": null
+ },
+ {
+  "id": "r_jaw_implant",
+  "name": "吞骸铁颚",
+  "owner": "frankendude",
+  "ownerName": "丧尸巨人",
+  "shared": false,
+  "core": false,
+  "desc": "当丧尸巨人受到致命伤害时，他会直接吃掉另一名亡灵来完全治疗自己，并获得20%韧性，持续10秒。优先吃掉召唤亡灵。冷却：10秒。",
+  "partial": null
+ },
+ {
+  "id": "bone_axe",
+  "name": "殉骨裂斧",
+  "owner": "necromancer",
+  "ownerName": "唤骨法师",
+  "shared": false,
+  "core": false,
+  "desc": "白骨仆从获得100%攻击力。当白骨仆从受到致命伤害时，所有附近亡灵获得10%暴击率，持续6秒。",
+  "partial": null
+ },
+ {
+  "id": "bony_backhand",
+  "name": "护主骨掌",
+  "owner": "necromancer",
+  "ownerName": "唤骨法师",
+  "shared": false,
+  "core": true,
+  "desc": "白骨仆从获得20%韧性，且在被召唤时嘲讽最多4个附近敌人，持续4秒。",
+  "partial": null
+ },
+ {
+  "id": "calcium_pills",
+  "name": "凝骨灰丸",
+  "owner": "necromancer",
+  "ownerName": "唤骨法师",
+  "shared": false,
+  "core": true,
+  "desc": "白骨仆从获得60%最大生命值，且唤骨法师获得30%最大生命值。当白骨仆从受到致命伤害时，他会为5名伤势最重的在册亡灵提供相当于其最大生命值100%的治疗，由受疗者均摊。",
+  "partial": null
+ },
+ {
+  "id": "flaming_skull",
+  "name": "焚命颅灯",
+  "owner": "necromancer",
+  "ownerName": "唤骨法师",
+  "shared": false,
+  "core": false,
+  "desc": "白骨仆从每秒燃烧最大生命值的10%，并对周围敌人造成等量伤害。",
+  "partial": null
+ },
+ {
+  "id": "frenzy_stone",
+  "name": "醒骨狂晶",
+  "owner": "necromancer",
+  "ownerName": "唤骨法师",
+  "shared": false,
+  "core": false,
+  "desc": "白骨仆从被召唤时，所有亡灵在本回合内获得1%攻速，最多叠加至30%。",
+  "partial": null
+ },
+ {
+  "id": "necronomicon",
+  "name": "唤骨秘典",
+  "owner": "necromancer",
+  "ownerName": "唤骨法师",
+  "shared": false,
+  "core": true,
+  "desc": "唤骨法师的白骨唤役能力的冷却时间减少50%。",
+  "partial": null
+ },
+ {
+  "id": "r_marrow_scooper",
+  "name": "返魂髓匙",
+  "owner": "necromancer",
+  "ownerName": "唤骨法师",
+  "shared": false,
+  "core": false,
+  "desc": "唤骨法师受到致命伤害时，他会献祭一名白骨仆从，为自己提供相当于该白骨仆从最大生命值100%的治疗。冷却：5秒。",
+  "partial": null
+ },
+ {
+  "id": "bat_wings",
+  "name": "遁血翼膜",
+  "owner": "vampire",
+  "ownerName": "血宴伯爵",
+  "shared": false,
+  "core": false,
+  "desc": "当血宴伯爵受到致命伤害时，他会从附近敌人身上进行生命窃取直至生命值回满，然后传送离开。冷却：10秒。",
+  "partial": null
+ },
+ {
+  "id": "blood_bag",
+  "name": "分宴血囊",
+  "owner": "vampire",
+  "ownerName": "血宴伯爵",
+  "shared": false,
+  "core": true,
+  "desc": "血宴伯爵获得50%顺劈，并且任何触发生命窃取的亡灵现在还会为伤势最重的在册亡灵提供相当于生命窃取量80%的治疗。",
+  "partial": null
+ },
+ {
+  "id": "blood_siphon",
+  "name": "索血银管",
+  "owner": "vampire",
+  "ownerName": "血宴伯爵",
+  "shared": false,
+  "core": false,
+  "desc": "当血宴伯爵在生命值低于50%时受到伤害，他会从随机一名更健康的在册亡灵身上抽取20%生命值，并向其施加血宴赐福。",
+  "partial": null
+ },
+ {
+  "id": "hollow_fangs",
+  "name": "裂肉长牙",
+  "owner": "vampire",
+  "ownerName": "血宴伯爵",
+  "shared": false,
+  "core": true,
+  "desc": "血宴伯爵获得60%攻击力和50%顺劈。",
+  "partial": null
+ },
+ {
+  "id": "shadow_skin",
+  "name": "凝血夜幕",
+  "owner": "vampire",
+  "ownerName": "血宴伯爵",
+  "shared": false,
+  "core": false,
+  "desc": "当血宴伯爵在生命值高于90%时进行生命窃取，他会获得相当于生命窃取量50%的临时生命值，持续3秒。",
+  "partial": null
+ },
+ {
+  "id": "soul_reliquary",
+  "name": "共饮魂盏",
+  "owner": "vampire",
+  "ownerName": "血宴伯爵",
+  "shared": false,
+  "core": false,
+  "desc": "血宴伯爵造成直接伤害时，他会标记目标的灵魂，持续4秒。任何对被标记目标造成伤害的亡灵，都会获得相当于所造成伤害15%的治疗。",
+  "partial": null
+ },
+ {
+  "id": "venomous_lipstick",
+  "name": "衰血唇膏",
+  "owner": "vampire",
+  "ownerName": "血宴伯爵",
+  "shared": false,
+  "core": false,
+  "desc": "血宴伯爵获得30%攻击力，且他的直接伤害使敌人的攻击力降低2%，持续5秒，最多叠加5次。",
+  "partial": null
+ },
+ {
+  "id": "r_anubis_statue",
+  "name": "渡厄石像",
+  "owner": "mummy",
+  "ownerName": "咒布古尸",
+  "shared": false,
+  "core": false,
+  "desc": "墓咒清算被施加到敌人身上时，有15%的概率为伤势最重的在册亡灵提供相当于施加数额100%的治疗。",
+  "partial": null
+ },
+ {
+  "id": "r_canopic_jar",
+  "name": "积咒脏罐",
+  "owner": "mummy",
+  "ownerName": "咒布古尸",
+  "shared": false,
+  "core": false,
+  "desc": "墓咒清算触发时，所有咒布古尸在本回合内获得可叠加的2%攻击力。",
+  "partial": null
+ },
+ {
+  "id": "r_embalming_salt",
+  "name": "传厄尸盐",
+  "owner": "mummy",
+  "ownerName": "咒布古尸",
+  "shared": false,
+  "core": true,
+  "desc": "墓咒清算在敌人身上触发时，有20%的概率把其所有的蓄积伤害复制到另一名随机敌人身上。",
+  "partial": null
+ },
+ {
+  "id": "r_golden_tongue",
+  "name": "吐咒金舌",
+  "owner": "mummy",
+  "ownerName": "咒布古尸",
+  "shared": false,
+  "core": false,
+  "desc": "咒布古尸获得30%最大生命值，且他的直接伤害会多生成30%墓咒。",
+  "partial": null
+ },
+ {
+  "id": "r_sandstorm",
+  "name": "盲目墓尘",
+  "owner": "mummy",
+  "ownerName": "咒布古尸",
+  "shared": false,
+  "core": false,
+  "desc": "咒布古尸在造成直接伤害时有25%的概率使目标失明，使其失手率提升10%，持续3秒。",
+  "partial": null
+ },
+ {
+  "id": "r_sarcophagus",
+  "name": "替死咒棺",
+  "owner": "mummy",
+  "ownerName": "咒布古尸",
+  "shared": false,
+  "core": false,
+  "desc": "咒布古尸受到致命伤害时，他会对墓咒最多的敌人造成相当于其秒伤500%的伤害。如果该敌人因此死亡，咒布古尸会完全治疗自己。冷却：5秒。",
+  "partial": null
+ },
+ {
+  "id": "r_scarabs",
+  "name": "散咒葬虫",
+  "owner": "mummy",
+  "ownerName": "咒布古尸",
+  "shared": false,
+  "core": true,
+  "desc": "当墓咒清算触发时，有30%的概率对随机3个其他敌人造成相当于其蓄积伤害的直接伤害，由被影响敌人均摊。",
+  "partial": null
+ },
+ {
+  "id": "r_bag_of_bones",
+  "name": "还魂骨袋",
+  "owner": "lich",
+  "ownerName": "缚命巫妖",
+  "shared": false,
+  "core": false,
+  "desc": "昏迷的缚命傀儡在战斗结束后进入营地时有50%的概率复活。此外，当缚命傀儡获得一层还魂怒火时，有20%的概率召唤一名白骨仆从。",
+  "partial": "本作适配：获胜结算时，倒下的傀儡各有 50% 按存活返还骨头（原作是回营复活）；获得还魂怒火时 20% 召唤白骨仆从"
+ },
+ {
+  "id": "r_marrow_leech",
+  "name": "索命髓蛭",
+  "owner": "lich",
+  "ownerName": "缚命巫妖",
+  "shared": false,
+  "core": false,
+  "desc": "缚命巫妖的缚命摄魂伤害触发时，他会嘲讽5个敌人，持续5秒。在缚命摄魂伤害将要触发时，他还会尽可能多地从其缚命傀儡身上抽取生命值。",
+  "partial": null
+ },
+ {
+  "id": "r_scales_of_death",
+  "name": "承罪骨秤",
+  "owner": "lich",
+  "ownerName": "缚命巫妖",
+  "shared": false,
+  "core": false,
+  "desc": "缚命巫妖获得30%最大生命值，且他在战斗开始时会嘲讽6个敌人，持续6秒。",
+  "partial": null
+ },
+ {
+  "id": "r_scythe",
+  "name": "复怨长镰",
+  "owner": "lich",
+  "ownerName": "缚命巫妖",
+  "shared": false,
+  "core": true,
+  "desc": "缚命巫妖获得30%最大生命值，且还魂怒火现在每层额外提供5%攻击力和1%暴击率。",
+  "partial": null
+ },
+ {
+  "id": "r_soul_chain",
+  "name": "叠怨魂链",
+  "owner": "lich",
+  "ownerName": "缚命巫妖",
+  "shared": false,
+  "core": true,
+  "desc": "缚命傀儡获得一层还魂怒火时，有30%的概率额外获得一层。连锁效应。",
+  "partial": null
+ },
+ {
+  "id": "r_spirit_bomb",
+  "name": "裂魂祭珠",
+  "owner": "lich",
+  "ownerName": "缚命巫妖",
+  "shared": false,
+  "core": false,
+  "desc": "缚命傀儡获得一层还魂怒火时，他会引发一场死灵爆炸，对周围敌人造成相当于其秒伤300%的伤害，由受影响敌人均摊。",
+  "partial": null
+ },
+ {
+  "id": "r_unholy_grail",
+  "name": "分罪冥杯",
+  "owner": "lich",
+  "ownerName": "缚命巫妖",
+  "shared": false,
+  "core": true,
+  "desc": "出战名册中在缚命巫妖前一位的兵种现在也会将其所受伤害的30%蓄积在缚命巫妖的缚命傀儡体内，而非自己承受该伤害。",
+  "partial": null
+ },
+ {
+  "id": "r_catering_truck",
+  "name": "护炊运骨车",
+  "owner": "chef",
+  "ownerName": "熬骨厨尸",
+  "shared": false,
+  "core": false,
+  "desc": "熬骨厨尸获得20%韧性。当他制作一个骨髓羹时，获得可叠加的10%格挡率，直到触发格挡为止。",
+  "partial": null
+ },
+ {
+  "id": "r_milkshake",
+  "name": "同饮血脂杯",
+  "owner": "chef",
+  "ownerName": "熬骨厨尸",
+  "shared": false,
+  "core": false,
+  "desc": "熬骨厨尸派送一个骨髓羹时，有30%的概率向该亡灵投掷一杯血脂露，为他及一名附近亡灵施加相当于熬骨厨尸攻击力150%的临时生命值，持续4秒。",
+  "partial": null
+ },
+ {
+  "id": "r_mise_en_place",
+  "name": "满锅备膳架",
+  "owner": "chef",
+  "ownerName": "熬骨厨尸",
+  "shared": false,
+  "core": true,
+  "desc": "熬骨厨尸在每场战斗开始时就带满骨髓羹，且他的骨髓羹的治疗量提升50%。",
+  "partial": null
+ },
+ {
+  "id": "r_oregano",
+  "name": "醒尸香草",
+  "owner": "chef",
+  "ownerName": "熬骨厨尸",
+  "shared": false,
+  "core": false,
+  "desc": "熬骨厨尸使冥宴主厨餐食的效果提升100%，且他的骨髓羹现在还会提供10%攻速，持续4秒。",
+  "partial": "餐食 NPC 部分待适配；已实现：骨髓羹附加 10% 攻速 4 秒"
+ },
+ {
+  "id": "r_rush_order",
+  "name": "连灶催羹牌",
+  "owner": "chef",
+  "ownerName": "熬骨厨尸",
+  "shared": false,
+  "core": false,
+  "desc": "熬骨厨尸制作一个骨髓羹时，有30%的概率额外制作一个骨髓羹。连锁效应。",
+  "partial": null
+ },
+ {
+  "id": "r_special_sauce",
+  "name": "暴沸秘酱",
+  "owner": "chef",
+  "ownerName": "熬骨厨尸",
+  "shared": false,
+  "core": false,
+  "desc": "熬骨厨尸的骨髓羹所提供的治疗现在可以暴击。此外，他的骨髓羹提供10%暴击率，持续3秒。",
+  "partial": null
+ },
+ {
+  "id": "r_waffle_fries",
+  "name": "脆骨佐料",
+  "owner": "chef",
+  "ownerName": "熬骨厨尸",
+  "shared": false,
+  "core": false,
+  "desc": "骨髓羹现在附赠脆骨佐料，为目标亡灵提供5%攻击力，持续4秒，最多叠加5次。",
+  "partial": null
+ },
+ {
+  "id": "r_circuit_breaker",
+  "name": "拒死断雷环",
+  "owner": "electrician",
+  "ownerName": "引雷尸匠",
+  "shared": false,
+  "core": false,
+  "desc": "当引雷尸匠受到致命伤害时，他会释放一股电流并幸存，对附近所有敌人造成相当于其秒伤100%的伤害，并将自己击飞后退。冷却：10秒。",
+  "partial": null
+ },
+ {
+  "id": "r_conduit",
+  "name": "满雷骨芯",
+  "owner": "electrician",
+  "ownerName": "引雷尸匠",
+  "shared": false,
+  "core": true,
+  "desc": "引雷尸匠获得30%攻击力，且在每场战斗开始时拥有10层雷印。",
+  "partial": null
+ },
+ {
+  "id": "r_electrical_tape",
+  "name": "分雷裹布",
+  "owner": "electrician",
+  "ownerName": "引雷尸匠",
+  "shared": false,
+  "core": false,
+  "desc": "当引雷尸匠使用阴雷迸发时，给予所有附近亡灵4%攻速和1%闪避，持续5秒，最多叠加5次。",
+  "partial": null
+ },
+ {
+  "id": "r_fuzzy_socks",
+  "name": "行雷尸袜",
+  "owner": "electrician",
+  "ownerName": "引雷尸匠",
+  "shared": false,
+  "core": true,
+  "desc": "引雷尸匠每移动25步便获得一层雷印。此距离会随着他的移速增加而缩短。",
+  "partial": null
+ },
+ {
+  "id": "r_ground_wire",
+  "name": "醒落接魂线",
+  "owner": "electrician",
+  "ownerName": "引雷尸匠",
+  "shared": false,
+  "core": true,
+  "desc": "引雷尸匠在被击飞后不再被眩晕。此外，他每用阴雷迸发电击一个敌人，就会在本回合内获得5%移速，最多叠加40次。",
+  "partial": null
+ },
+ {
+  "id": "r_lightning_rod",
+  "name": "连雷脊针",
+  "owner": "electrician",
+  "ownerName": "引雷尸匠",
+  "shared": false,
+  "core": false,
+  "desc": "引雷尸匠获得20%最大生命值，且其阴雷迸发有50%概率跳跃至一名额外敌人身上。连锁效应。",
+  "partial": null
+ },
+ {
+  "id": "r_wire_stripper",
+  "name": "聚雷裂钳",
+  "owner": "electrician",
+  "ownerName": "引雷尸匠",
+  "shared": false,
+  "core": false,
+  "desc": "引雷尸匠获得50%顺劈，且每层雷印给予他10%攻击力。",
+  "partial": null
+ },
+ {
+  "id": "r_beam_splitter",
+  "name": "双芯引魂灯",
+  "owner": "alien",
+  "ownerName": "引魂使者",
+  "shared": false,
+  "core": false,
+  "desc": "引魂使者的引魂灯现在会额外选定一名亡灵作为目标，并施加相当于目标亡灵最大生命值10%的临时生命值，持续2秒。",
+  "partial": null
+ },
+ {
+  "id": "r_brain_implant",
+  "name": "并命颅钉",
+  "owner": "alien",
+  "ownerName": "引魂使者",
+  "shared": false,
+  "core": false,
+  "desc": "引魂使者获得5%再生。每半秒，所有引魂使者都会与出战名册中前一位的亡灵均摊其生命值。",
+  "partial": null
+ },
+ {
+  "id": "r_dissection_kit",
+  "name": "救亡剖魂箱",
+  "owner": "alien",
+  "ownerName": "引魂使者",
+  "shared": false,
+  "core": false,
+  "desc": "当出战名册中紧随引魂使者其后的兵种受到致命伤害时，有30%的概率获得完全治疗并立即被引魂灯传送 。",
+  "partial": null
+ },
+ {
+  "id": "r_inertia_bubble",
+  "name": "落魂震珠",
+  "owner": "alien",
+  "ownerName": "引魂使者",
+  "shared": false,
+  "core": true,
+  "desc": "引魂灯的冷却减少1秒。当亡灵抵达其引魂灯目的地时，会引发一场爆炸，对周围敌人造成相当于其秒伤50%的伤害，由被命中敌人分摊。",
+  "partial": null
+ },
+ {
+  "id": "r_probe",
+  "name": "借刃魂针",
+  "owner": "alien",
+  "ownerName": "引魂使者",
+  "shared": false,
+  "core": false,
+  "desc": "引魂使者获得30%最大生命值。在他对一名亡灵使用引魂灯后的2秒内，引魂使者的直接伤害会附带相当于该亡灵攻击力25%的额外伤害。",
+  "partial": null
+ },
+ {
+  "id": "r_rad_infusion",
+  "name": "催战灯油",
+  "owner": "alien",
+  "ownerName": "引魂使者",
+  "shared": false,
+  "core": false,
+  "desc": "受引魂灯影响的亡灵在抵达目标后获得25%攻击力和5%暴击率，持续2秒，最多叠加4次。",
+  "partial": null
+ },
+ {
+  "id": "r_ufo_wax",
+  "name": "移伤灯罩",
+  "owner": "alien",
+  "ownerName": "引魂使者",
+  "shared": false,
+  "core": false,
+  "desc": "引魂使者的引魂灯结束时，他和他的引魂灯目标都获得独立叠加的15%偏转，持续3秒。",
+  "partial": null
+ },
+ {
+  "id": "r_arcane_monocle",
+  "name": "映火颅镜",
+  "owner": "wizard",
+  "ownerName": "冥火巫师",
+  "shared": false,
+  "core": false,
+  "desc": "冥火巫师获得50%暴击伤害。此外，处于冥火球爆炸范围的亡灵获得5%攻击力，持续4秒，最多叠加5次。",
+  "partial": null
+ },
+ {
+  "id": "r_ember_staff",
+  "name": "积焰枯杖",
+  "owner": "wizard",
+  "ownerName": "冥火巫师",
+  "shared": false,
+  "core": false,
+  "desc": "每当冥火巫师的冥火球落地时，他都会获得独立叠加的5%暴击率，持续5秒。",
+  "partial": null
+ },
+ {
+  "id": "r_enchanted_girdle",
+  "name": "脱死焰带",
+  "owner": "wizard",
+  "ownerName": "冥火巫师",
+  "shared": false,
+  "core": false,
+  "desc": "当冥火巫师受到致命伤害时，他会传送到安全地带，并获得相当于其最大生命值100%的临时生命值，持续至耗尽。冷却：10秒。",
+  "partial": null
+ },
+ {
+  "id": "r_everburning_torch",
+  "name": "护命冥灯",
+  "owner": "wizard",
+  "ownerName": "冥火巫师",
+  "shared": false,
+  "core": true,
+  "desc": "冥火巫师施放的每个冥火球术都会给予他相当于最大生命值25%的临时生命值，持续至耗尽。",
+  "partial": null
+ },
+ {
+  "id": "r_lava_pendant",
+  "name": "传火坠饰",
+  "owner": "wizard",
+  "ownerName": "冥火巫师",
+  "shared": false,
+  "core": false,
+  "desc": "冥火球术在命中时有30%的概率弹射并飞向新目标。连锁效应。",
+  "partial": null
+ },
+ {
+  "id": "r_spell_book",
+  "name": "行火残卷",
+  "owner": "wizard",
+  "ownerName": "冥火巫师",
+  "shared": false,
+  "core": true,
+  "desc": "冥火巫师获得30%攻击力，且他现在每移动100步便会施放一次冥火球术。",
+  "partial": null
+ },
+ {
+  "id": "r_two_sided_scroll",
+  "name": "复诵焚书",
+  "owner": "wizard",
+  "ownerName": "冥火巫师",
+  "shared": false,
+  "core": false,
+  "desc": "冥火巫师施放冥火球术时，有25%的概率立即再次施放冥火球术。连锁效应。",
+  "partial": null
+ },
+ {
+  "id": "booming_voice",
+  "name": "震军颅号",
+  "owner": "general",
+  "ownerName": "骸骨统帅",
+  "shared": false,
+  "core": false,
+  "desc": "骸骨统帅命令亡灵每次额外嘲讽2个敌人，并对嘲讽者周围造成相当于其秒伤300%的伤害，由被命中的敌人均摊。",
+  "partial": null
+ },
+ {
+  "id": "combat_boots",
+  "name": "踏阵铁靴",
+  "owner": "general",
+  "ownerName": "骸骨统帅",
+  "shared": false,
+  "core": false,
+  "desc": "骸骨统帅获得20%韧性和攻击力。",
+  "partial": null
+ },
+ {
+  "id": "combat_radio",
+  "name": "传令魂铃",
+  "owner": "general",
+  "ownerName": "骸骨统帅",
+  "shared": false,
+  "core": true,
+  "desc": "骸骨统帅使用冥军号令时，目标亡灵获得独立叠加的15%攻击力、5%暴击率和30%顺劈，持续4秒。",
+  "partial": null
+ },
+ {
+  "id": "frilled_shoulderpads",
+  "name": "共命肩旗",
+  "owner": "general",
+  "ownerName": "骸骨统帅",
+  "shared": false,
+  "core": true,
+  "desc": "骸骨统帅的冥军号令现在会为目标亡灵提供相当于目标最大生命值20%的治疗，且他自身将获得等量的临时生命值，持续4秒。目标亡灵的过量治疗将转化为临时生命值。",
+  "partial": null
+ },
+ {
+  "id": "gold_star",
+  "name": "揭弱将印",
+  "owner": "general",
+  "ownerName": "骸骨统帅",
+  "shared": false,
+  "core": false,
+  "desc": "骸骨统帅使用冥军号令时，他会对被嘲讽的敌人施加10%弱点暴露，持续4秒。",
+  "partial": null
+ },
+ {
+  "id": "imposing_podium",
+  "name": "不退军台",
+  "owner": "general",
+  "ownerName": "骸骨统帅",
+  "shared": false,
+  "core": false,
+  "desc": "骸骨统帅使用冥军号令时，目标亡灵获得独立叠加的10%韧性，持续4秒。",
+  "partial": null
+ },
+ {
+  "id": "r_heroic_medal",
+  "name": "双令帅徽",
+  "owner": "general",
+  "ownerName": "骸骨统帅",
+  "shared": false,
+  "core": false,
+  "desc": "骸骨统帅获得20%最大生命值，且他的冥军号令会额外选定一名亡灵作为目标。",
+  "partial": null
+ },
+ {
+  "id": "bagpipes",
+  "name": "挑衅丧笛",
+  "owner": "knight",
+  "ownerName": "黑棺重卫",
+  "shared": false,
+  "core": false,
+  "desc": "黑棺重卫获得10%韧性，且他现在造成直接伤害时有20%的概率嘲讽一个附近敌人。",
+  "partial": null
+ },
+ {
+  "id": "belted_greaves",
+  "name": "同袍墓铁胫",
+  "owner": "knight",
+  "ownerName": "黑棺重卫",
+  "shared": false,
+  "core": false,
+  "desc": "黑棺重卫获得10%韧性。此外，你的队伍中每有一名黑棺重卫，所有亡灵便获得1%韧性，最多叠加至10%。",
+  "partial": null
+ },
+ {
+  "id": "blacksmith_hammer",
+  "name": "返甲重锤",
+  "owner": "knight",
+  "ownerName": "黑棺重卫",
+  "shared": false,
+  "core": true,
+  "desc": "黑棺重卫获得30%最大生命值。在其造成直伤暴击时，他会造成相当于其当前临时生命值40%的额外伤害。",
+  "partial": null
+ },
+ {
+  "id": "chestplate",
+  "name": "积伤棺甲",
+  "owner": "knight",
+  "ownerName": "黑棺重卫",
+  "shared": false,
+  "core": false,
+  "desc": "黑棺重卫受到大于其最大生命值5%的伤害时，他会获得相当于所受伤害40%的临时生命值，持续3秒。",
+  "partial": null
+ },
+ {
+  "id": "r_ablative_shield",
+  "name": "凝魂棺盖",
+  "owner": "knight",
+  "ownerName": "黑棺重卫",
+  "shared": false,
+  "core": true,
+  "desc": "当黑棺重卫受到治疗时，获得相当于治疗量100%的临时生命值，持续3秒。",
+  "partial": null
+ },
+ {
+  "id": "scroll_of_mockery",
+  "name": "辱敌檄文",
+  "owner": "knight",
+  "ownerName": "黑棺重卫",
+  "shared": false,
+  "core": false,
+  "desc": "黑棺重卫获得20%最大生命值，且被他嘲讽的敌人获得10%弱点暴露，持续3秒。",
+  "partial": null
+ },
+ {
+  "id": "sturdy_helmet",
+  "name": "叫阵铁盔",
+  "owner": "knight",
+  "ownerName": "黑棺重卫",
+  "shared": false,
+  "core": false,
+  "desc": "当任意亡灵嘲讽敌人时，该亡灵获得相当于其最大生命值3%的临时生命值，持续3秒。",
+  "partial": null
+ },
+ {
+  "id": "ancient_sword",
+  "name": "裂冥召骨剑",
+  "owner": null,
+  "ownerName": null,
+  "shared": true,
+  "core": false,
+  "desc": "战斗开始时会召唤2个白骨仆从。每当一名亡灵嘲讽时，有5%的概率刺穿冥界并召唤一个白骨仆从。此效果有1秒的全局冷却。",
+  "partial": null
+ },
+ {
+  "id": "bean_burrito",
+  "name": "殁毒腹囊",
+  "owner": null,
+  "ownerName": null,
+  "shared": true,
+  "core": false,
+  "desc": "当一名亡灵被击倒时，他会在倒地的瞬间释放一股毒气，对附近敌人造成相当于其秒伤400%的伤害。",
+  "partial": null
+ },
+ {
+  "id": "false_fangs",
+  "name": "初拥牙环",
+  "owner": null,
+  "ownerName": null,
+  "shared": true,
+  "core": false,
+  "desc": "所有亡灵获得5%生命窃取。",
+  "partial": null
+ },
+ {
+  "id": "ritual_dagger",
+  "name": "生祭骨匕",
+  "owner": null,
+  "ownerName": null,
+  "shared": true,
+  "core": false,
+  "desc": "所有亡灵获得2%再生。当亡灵通过再生获得治疗时，有20%的概率向随机一个敌人投掷匕首，造成相当于其秒伤100%的直接伤害。",
+  "partial": null
+ },
+ {
+  "id": "sewing_kit",
+  "name": "还肉缝线",
+  "owner": null,
+  "ownerName": null,
+  "shared": true,
+  "core": false,
+  "desc": "所有亡灵在受到非致命伤害时，有15%概率获得相当于所受伤害100%的治疗。",
+  "partial": null
+ },
+ {
+  "id": "r_ring_of_shielding",
+  "name": "余生护戒",
+  "owner": null,
+  "ownerName": null,
+  "shared": true,
+  "core": false,
+  "desc": "所有过量治疗的25%现在会转化为临时生命值，持续2秒。",
+  "partial": null
+ },
+ {
+  "id": "r_mana_collector",
+  "name": "凝魄祭皿",
+  "owner": null,
+  "ownerName": null,
+  "shared": true,
+  "core": false,
+  "desc": "所有亡灵每2秒获得相当于其最大生命值6%的临时生命值。此临时生命值持续至耗尽。",
+  "partial": null
+ },
+ {
+  "id": "purple_heart",
+  "name": "血铸军功章",
+  "owner": null,
+  "ownerName": null,
+  "shared": true,
+  "core": false,
+  "desc": "任意亡灵造成暴击时，该亡灵会获得相当于自身最大生命值10%的临时生命值，持续2秒。冷却：2秒。",
+  "partial": null
+ },
+ {
+  "id": "r_safety_glasses",
+  "name": "护工骨镜",
+  "owner": null,
+  "ownerName": null,
+  "shared": true,
+  "core": false,
+  "desc": "所有亡灵获得10%偏转和10%攻速。",
+  "partial": null
+ },
+ {
+  "id": "r_medical_nanites",
+  "name": "续骨尸虫",
+  "owner": null,
+  "ownerName": null,
+  "shared": true,
+  "core": false,
+  "desc": "所有亡灵获得5%韧性和1%再生。",
+  "partial": null
+ }
+]

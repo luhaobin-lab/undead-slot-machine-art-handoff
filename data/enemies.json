@@ -1,0 +1,3038 @@
+[
+ {
+  "id": "toddler",
+  "name": "新募杂役",
+  "title": null,
+  "tier": "民兵",
+  "boss": false,
+  "ai": "charge",
+  "aiName": "正面冲阵",
+  "stats": {
+   "hp": 45,
+   "attack": 3,
+   "attack_speed": 1.3,
+   "run_speed": 15,
+   "range_px": 30
+  },
+  "bone": 1,
+  "traits": [],
+  "look": {
+   "b": "#b0a080",
+   "d": "#7a6a50",
+   "t": "#d8c8a0",
+   "h": "cap",
+   "k": 0.78,
+   "skin": "#d8a078",
+   "hair": "#c8b080",
+   "hc": "#7a5a3a",
+   "w": "stick"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "duck_sized_horse",
+  "name": "轻装侍从",
+  "title": null,
+  "tier": "民兵",
+  "boss": false,
+  "ai": "flank",
+  "aiName": "侧翼包抄",
+  "stats": {
+   "hp": 50,
+   "attack": 4,
+   "attack_speed": 1.6,
+   "run_speed": 20,
+   "range_px": 30
+  },
+  "bone": 1,
+  "traits": [],
+  "look": {
+   "b": "#c0a060",
+   "d": "#8a7040",
+   "t": "#e8d8a0",
+   "h": "cap",
+   "k": 0.9,
+   "skin": "#f0c8a0",
+   "hair": "#6a4a2a",
+   "hc": "#5a8ad0",
+   "w": "sword",
+   "m": "pony",
+   "mc": "#c8a878"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "rat",
+  "name": "街巷打手",
+  "title": null,
+  "tier": "民兵",
+  "boss": false,
+  "ai": "flank",
+  "aiName": "侧翼包抄",
+  "stats": {
+   "hp": 55,
+   "attack": 6,
+   "attack_speed": 1.5,
+   "run_speed": 16,
+   "range_px": 30
+  },
+  "bone": 1,
+  "traits": [],
+  "look": {
+   "b": "#6a6a6a",
+   "d": "#444444",
+   "t": "#a04040",
+   "h": "band",
+   "k": 0.88,
+   "skin": "#e8b890",
+   "hair": "#3a2a1a",
+   "hc": "#a04040",
+   "w": "dagger"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "duck",
+  "name": "木棒乡勇",
+  "title": null,
+  "tier": "民兵",
+  "boss": false,
+  "ai": "charge",
+  "aiName": "正面冲阵",
+  "stats": {
+   "hp": 60,
+   "attack": 4,
+   "attack_speed": 1,
+   "run_speed": 12,
+   "range_px": 30
+  },
+  "bone": 1,
+  "traits": [],
+  "look": {
+   "b": "#8a6a40",
+   "d": "#5a4428",
+   "t": "#c8a070",
+   "h": "none",
+   "k": 0.95,
+   "skin": "#d8a078",
+   "hair": "#3a2a1a",
+   "w": "club"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "goose",
+  "name": "村镇巡丁",
+  "title": null,
+  "tier": "民兵",
+  "boss": false,
+  "ai": "charge",
+  "aiName": "正面冲阵",
+  "stats": {
+   "hp": 65,
+   "attack": 6,
+   "attack_speed": 1.1,
+   "run_speed": 13,
+   "range_px": 30
+  },
+  "bone": 1,
+  "traits": [],
+  "look": {
+   "b": "#d8d8d0",
+   "d": "#9a9a90",
+   "t": "#e0a030",
+   "h": "cap",
+   "k": 0.95,
+   "skin": "#d8a078",
+   "hair": "#a07040",
+   "hc": "#e0a030",
+   "w": "spear"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "goat",
+  "name": "牧场民兵",
+  "title": null,
+  "tier": "民兵",
+  "boss": false,
+  "ai": "charge",
+  "aiName": "正面冲阵",
+  "stats": {
+   "hp": 70,
+   "attack": 5,
+   "attack_speed": 1,
+   "run_speed": 12,
+   "range_px": 30
+  },
+  "bone": 1,
+  "traits": [],
+  "look": {
+   "b": "#9a7a50",
+   "d": "#6a5030",
+   "t": "#d0b070",
+   "h": "straw",
+   "k": 0.95,
+   "skin": "#a87050",
+   "hair": "#c8b080",
+   "hc": "#e0c060",
+   "w": "fork"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "mallard_duck",
+  "name": "绿巾猎户",
+  "title": null,
+  "tier": "民兵",
+  "boss": false,
+  "ai": "flank",
+  "aiName": "侧翼包抄",
+  "stats": {
+   "hp": 70,
+   "attack": 7,
+   "attack_speed": 1.2,
+   "run_speed": 14,
+   "range_px": 30
+  },
+  "bone": 1,
+  "traits": [],
+  "look": {
+   "b": "#3a7a3a",
+   "d": "#245024",
+   "t": "#a0d060",
+   "h": "hood",
+   "k": 0.95,
+   "skin": "#f0c8a0",
+   "hair": "#6a4a2a",
+   "hc": "#2e6a2e",
+   "w": "hatchet"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "canada_goose",
+  "name": "边村民兵",
+  "title": null,
+  "tier": "民兵",
+  "boss": false,
+  "ai": "charge",
+  "aiName": "正面冲阵",
+  "stats": {
+   "hp": 80,
+   "attack": 6,
+   "attack_speed": 1.1,
+   "run_speed": 13,
+   "range_px": 30
+  },
+  "bone": 1,
+  "traits": [],
+  "look": {
+   "b": "#4a6a4a",
+   "d": "#2e442e",
+   "t": "#c8c0a0",
+   "h": "kettle",
+   "k": 1,
+   "skin": "#f0c8a0",
+   "hair": "#1a1014",
+   "hc": "#8a8a8a",
+   "w": "spear",
+   "o": "round",
+   "oc": "#6a4a2a"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "ram",
+  "name": "角盔乡勇",
+  "title": null,
+  "tier": "民兵",
+  "boss": false,
+  "ai": "charge",
+  "aiName": "正面冲阵",
+  "stats": {
+   "hp": 90,
+   "attack": 6,
+   "attack_speed": 1,
+   "run_speed": 12,
+   "range_px": 30
+  },
+  "bone": 1,
+  "traits": [],
+  "look": {
+   "b": "#8a7050",
+   "d": "#5a4630",
+   "t": "#d8d0b8",
+   "h": "horn",
+   "k": 1,
+   "skin": "#c08860",
+   "hair": "#6a4a2a",
+   "hc": "#9a9a9a",
+   "w": "club"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "gorilla",
+  "name": "城垒卫兵",
+  "title": null,
+  "tier": "民兵",
+  "boss": false,
+  "ai": "line",
+  "aiName": "列阵推进",
+  "stats": {
+   "hp": 160,
+   "attack": 10,
+   "attack_speed": 1,
+   "run_speed": 11,
+   "range_px": 30
+  },
+  "bone": 2,
+  "traits": [],
+  "look": {
+   "b": "#7a7a84",
+   "d": "#50505a",
+   "t": "#a0a0aa",
+   "h": "helm",
+   "k": 1.1,
+   "skin": "#c08860",
+   "hair": "#7a2a1a",
+   "hc": "#8a8a94",
+   "w": "mace",
+   "o": "tower",
+   "oc": "#6a6a74"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "panda_bear",
+  "name": "布甲武僧",
+  "title": null,
+  "tier": "民兵",
+  "boss": false,
+  "ai": "charge",
+  "aiName": "正面冲阵",
+  "stats": {
+   "hp": 200,
+   "attack": 12,
+   "attack_speed": 1.1,
+   "run_speed": 12,
+   "range_px": 30
+  },
+  "bone": 3,
+  "traits": [],
+  "look": {
+   "b": "#f0f0e8",
+   "d": "#2a2a2a",
+   "t": "#c4313d",
+   "h": "bald",
+   "k": 1.1,
+   "skin": "#a87050",
+   "hair": "#6a4a2a",
+   "w": "staff"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "raven",
+  "name": "掷砂散兵",
+  "title": null,
+  "tier": "步兵",
+  "boss": false,
+  "ai": "flank",
+  "aiName": "侧翼包抄",
+  "stats": {
+   "hp": 70,
+   "attack": 8,
+   "attack_speed": 1.3,
+   "run_speed": 17,
+   "range_px": 30
+  },
+  "bone": 2,
+  "traits": [
+   {
+    "id": "trait_peck",
+    "name": "扬砂扰目",
+    "desc": "该敌军的攻击伤害有10%概率对目标施加10%失手率，持续2秒。"
+   }
+  ],
+  "look": {
+   "b": "#2a2a34",
+   "d": "#16161e",
+   "t": "#7a7a8a",
+   "h": "hood",
+   "k": 0.92,
+   "skin": "#c08860",
+   "hair": "#c8b080",
+   "hc": "#22222c",
+   "w": "sling"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "bee",
+  "name": "轻步刺剑手",
+  "title": null,
+  "tier": "步兵",
+  "boss": false,
+  "ai": "dive",
+  "aiName": "绕后突袭",
+  "stats": {
+   "hp": 75,
+   "attack": 10,
+   "attack_speed": 1.6,
+   "run_speed": 24,
+   "range_px": 30
+  },
+  "bone": 2,
+  "traits": [
+   {
+    "id": "evasive",
+    "name": "避开横扫",
+    "desc": "无法被顺劈选为目标。"
+   }
+  ],
+  "look": {
+   "b": "#d4a84a",
+   "d": "#8c6a2a",
+   "t": "#f0e8d0",
+   "h": "feather",
+   "k": 0.9,
+   "skin": "#f0c8a0",
+   "hair": "#c8b080",
+   "hc": "#c4313d",
+   "w": "rapier"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "seagull",
+  "name": "截粮散兵",
+  "title": null,
+  "tier": "步兵",
+  "boss": false,
+  "ai": "dive",
+  "aiName": "绕后突袭",
+  "stats": {
+   "hp": 75,
+   "attack": 9,
+   "attack_speed": 1.3,
+   "run_speed": 18,
+   "range_px": 30
+  },
+  "bone": 2,
+  "traits": [
+   {
+    "id": "t_food_thief",
+    "name": "截粮追杀",
+    "desc": "该敌军无法被嘲讽，并会优先锁定吃过食物的亡灵进行攻击。"
+   },
+   {
+    "id": "trait_peck",
+    "name": "扬砂扰目",
+    "desc": "该敌军的攻击伤害有10%概率对目标施加10%失手率，持续2秒。"
+   }
+  ],
+  "look": {
+   "b": "#d8dce0",
+   "d": "#8a9098",
+   "t": "#e0a030",
+   "h": "cap",
+   "k": 0.92,
+   "skin": "#e8b890",
+   "hair": "#6a4a2a",
+   "hc": "#8a9098",
+   "w": "hook",
+   "o": "sack",
+   "oc": "#a08050"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "feral_hog",
+  "name": "集结义勇兵",
+  "title": null,
+  "tier": "步兵",
+  "boss": false,
+  "ai": "swarm",
+  "aiName": "分散包围",
+  "stats": {
+   "hp": 85,
+   "attack": 7,
+   "attack_speed": 1.4,
+   "run_speed": 12,
+   "range_px": 30
+  },
+  "bone": 2,
+  "traits": [
+   {
+    "id": "t_swarmer",
+    "name": "集结冲势",
+    "desc": "附近每有一个同兵种敌军，便获得20%移速和2%攻速，最多叠加10次。"
+   }
+  ],
+  "look": {
+   "b": "#4a8a3a",
+   "d": "#2e5a24",
+   "t": "#8a6a40",
+   "h": "cap",
+   "k": 0.95,
+   "skin": "#a87050",
+   "hair": "#1a1014",
+   "hc": "#6a5030",
+   "w": "spear"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "rattlesnake",
+  "name": "淬毒短刀手",
+  "title": null,
+  "tier": "步兵",
+  "boss": false,
+  "ai": "flank",
+  "aiName": "侧翼包抄",
+  "stats": {
+   "hp": 85,
+   "attack": 11,
+   "attack_speed": 1.5,
+   "run_speed": 15,
+   "range_px": 30
+  },
+  "bone": 2,
+  "traits": [
+   {
+    "id": "trait_venom",
+    "name": "淬毒蚀甲",
+    "desc": "该敌军的攻击伤害会在本回合内对目标施加1%易伤，最多叠加10次。"
+   }
+  ],
+  "look": {
+   "b": "#a08a50",
+   "d": "#6a5a30",
+   "t": "#7aff6a",
+   "h": "band",
+   "k": 0.92,
+   "skin": "#d8a078",
+   "hair": "#6a4a2a",
+   "hc": "#6a5a30",
+   "w": "dagger"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "poison_dart_frog",
+  "name": "毒甲步卒",
+  "title": null,
+  "tier": "步兵",
+  "boss": false,
+  "ai": "charge",
+  "aiName": "正面冲阵",
+  "stats": {
+   "hp": 95,
+   "attack": 8,
+   "attack_speed": 1.2,
+   "run_speed": 12,
+   "range_px": 30
+  },
+  "bone": 2,
+  "traits": [
+   {
+    "id": "t_toxic_secretion",
+    "name": "毒甲反染",
+    "desc": "受到伤害时，该敌军会对攻击者施加1%易伤，持续8秒，最多叠加10次。"
+   }
+  ],
+  "look": {
+   "b": "#3ab05a",
+   "d": "#1e6a34",
+   "t": "#e0e040",
+   "h": "kettle",
+   "k": 0.95,
+   "skin": "#c08860",
+   "hair": "#1a1014",
+   "hc": "#2e8a4a",
+   "w": "spear"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "crab",
+  "name": "锁身格斗兵",
+  "title": null,
+  "tier": "步兵",
+  "boss": false,
+  "ai": "charge",
+  "aiName": "正面冲阵",
+  "stats": {
+   "hp": 130,
+   "attack": 10,
+   "attack_speed": 1.1,
+   "run_speed": 10,
+   "range_px": 30
+  },
+  "bone": 2,
+  "traits": [
+   {
+    "id": "trait_pinch",
+    "name": "贴身缠杀",
+    "desc": "当该敌军造成攻击伤害时，有10%概率附着在目标身上，持续3秒。附着期间，每半秒对目标造成相当于其秒伤75%的伤害。"
+   }
+  ],
+  "look": {
+   "b": "#d0602a",
+   "d": "#8a3a18",
+   "t": "#f0b080",
+   "h": "helm",
+   "k": 1,
+   "skin": "#f0c8a0",
+   "hair": "#c8b080",
+   "hc": "#c05020",
+   "w": "claw"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "wolf",
+  "name": "联盾步兵",
+  "title": null,
+  "tier": "步兵",
+  "boss": false,
+  "ai": "line",
+  "aiName": "列阵推进",
+  "stats": {
+   "hp": 150,
+   "attack": 8,
+   "attack_speed": 1.2,
+   "run_speed": 13,
+   "range_px": 30
+  },
+  "bone": 2,
+  "traits": [
+   {
+    "id": "t_pack",
+    "name": "同袍分伤",
+    "desc": "承受伤害的30%将会被转移，并均分给另外2个同兵种敌军。"
+   }
+  ],
+  "look": {
+   "b": "#3561b0",
+   "d": "#22406e",
+   "t": "#b8c4cc",
+   "h": "kettle",
+   "k": 1,
+   "skin": "#a87050",
+   "hair": "#3a2a1a",
+   "hc": "#9aa4ac",
+   "w": "spear",
+   "o": "shield",
+   "oc": "#5a8ae0"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "hyena",
+  "name": "拾骨征伐兵",
+  "title": null,
+  "tier": "步兵",
+  "boss": false,
+  "ai": "flank",
+  "aiName": "侧翼包抄",
+  "stats": {
+   "hp": 110,
+   "attack": 11,
+   "attack_speed": 1.3,
+   "run_speed": 15,
+   "range_px": 30
+  },
+  "bone": 3,
+  "traits": [
+   {
+    "id": "t_marrow_eater",
+    "name": "斩骸战功",
+    "desc": "当一名亡灵被击倒且未能恢复时，该敌军在本回合内获得2%攻击力和10%移速，最多叠加10次。"
+   },
+   {
+    "id": "t_pack",
+    "name": "同袍分伤",
+    "desc": "承受伤害的30%将会被转移，并均分给另外2个同兵种敌军。"
+   }
+  ],
+  "look": {
+   "b": "#b09a60",
+   "d": "#7a6a40",
+   "t": "#e8e0c0",
+   "h": "fur",
+   "k": 0.95,
+   "skin": "#f0c8a0",
+   "hair": "#6a4a2a",
+   "hc": "#8a7a50",
+   "w": "axe"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "big_bee",
+  "name": "轻步刺剑长",
+  "title": null,
+  "tier": "步兵",
+  "boss": false,
+  "ai": "dive",
+  "aiName": "绕后突袭",
+  "stats": {
+   "hp": 120,
+   "attack": 14,
+   "attack_speed": 1.6,
+   "run_speed": 24,
+   "range_px": 30
+  },
+  "bone": 3,
+  "traits": [
+   {
+    "id": "evasive",
+    "name": "避开横扫",
+    "desc": "无法被顺劈选为目标。"
+   }
+  ],
+  "look": {
+   "b": "#e0b030",
+   "d": "#8c6a2a",
+   "t": "#1a1014",
+   "h": "feather",
+   "k": 1,
+   "skin": "#a87050",
+   "hair": "#7a2a1a",
+   "hc": "#1a1014",
+   "w": "rapier",
+   "o": "cape",
+   "oc": "#8c2a2a"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "rat_king",
+  "name": "疫毒囚兵",
+  "title": null,
+  "tier": "步兵",
+  "boss": false,
+  "ai": "charge",
+  "aiName": "正面冲阵",
+  "stats": {
+   "hp": 130,
+   "attack": 11,
+   "attack_speed": 1.2,
+   "run_speed": 12,
+   "range_px": 30
+  },
+  "bone": 3,
+  "traits": [
+   {
+    "id": "trait_plagued",
+    "name": "疫刃侵蚀",
+    "desc": "其攻击会传播瘟疫，使目标的受治疗效果降低1%，持续5秒，最多叠加10次。"
+   }
+  ],
+  "look": {
+   "b": "#6a7a5a",
+   "d": "#44503a",
+   "t": "#a0ff70",
+   "h": "mask",
+   "k": 1,
+   "skin": "#d8a078",
+   "hair": "#1a1014",
+   "hc": "#3a3a30",
+   "w": "flail"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "lowyena",
+  "name": "锚盾拾骨兵",
+  "title": null,
+  "tier": "步兵",
+  "boss": false,
+  "ai": "line",
+  "aiName": "列阵推进",
+  "stats": {
+   "hp": 140,
+   "attack": 10,
+   "attack_speed": 1.2,
+   "run_speed": 13,
+   "range_px": 30
+  },
+  "bone": 3,
+  "traits": [
+   {
+    "id": "t_marrow_eater",
+    "name": "斩骸战功",
+    "desc": "当一名亡灵被击倒且未能恢复时，该敌军在本回合内获得2%攻击力和10%移速，最多叠加10次。"
+   },
+   {
+    "id": "t_pack",
+    "name": "同袍分伤",
+    "desc": "承受伤害的30%将会被转移，并均分给另外2个同兵种敌军。"
+   },
+   {
+    "id": "trait_stable",
+    "name": "低桩锚定",
+    "desc": "重心太低，使其无法被击飞或眩晕。"
+   }
+  ],
+  "look": {
+   "b": "#9a8a5a",
+   "d": "#6a5a3a",
+   "t": "#e8e0c0",
+   "h": "fur",
+   "k": 0.9,
+   "skin": "#f0c8a0",
+   "hair": "#c8b080",
+   "hc": "#7a6a40",
+   "w": "axe",
+   "o": "round",
+   "oc": "#7a7a84"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "horse",
+  "name": "惊骑斥候",
+  "title": null,
+  "tier": "步兵",
+  "boss": false,
+  "ai": "flank",
+  "aiName": "侧翼包抄",
+  "stats": {
+   "hp": 140,
+   "attack": 12,
+   "attack_speed": 1.1,
+   "run_speed": 22,
+   "range_px": 30
+  },
+  "bone": 3,
+  "traits": [
+   {
+    "id": "t_panicky",
+    "name": "惊骑乱冲",
+    "desc": "当其生命值降至30%以下时，他会陷入惊骑乱冲并四处乱跑，对途经的所有亡灵造成相当于其攻击力20%的伤害，并将其击飞。"
+   }
+  ],
+  "look": {
+   "b": "#8a5a3a",
+   "d": "#5a3a24",
+   "t": "#d4a84a",
+   "h": "kettle",
+   "k": 1,
+   "skin": "#a87050",
+   "hair": "#c8b080",
+   "hc": "#9a9a9a",
+   "w": "saber",
+   "m": "horse",
+   "mc": "#8a5a30"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "kangaroo",
+  "name": "驻盾格斗兵",
+  "title": null,
+  "tier": "步兵",
+  "boss": false,
+  "ai": "line",
+  "aiName": "列阵推进",
+  "stats": {
+   "hp": 150,
+   "attack": 14,
+   "attack_speed": 1.2,
+   "run_speed": 14,
+   "range_px": 30
+  },
+  "bone": 3,
+  "traits": [
+   {
+    "id": "trait_tripod",
+    "name": "驻盾支撑",
+    "desc": "得益于驻地盾架提供的稳定支撑，他无法被击飞或眩晕。"
+   }
+  ],
+  "look": {
+   "b": "#b07a40",
+   "d": "#7a5028",
+   "t": "#e0c090",
+   "h": "kettle",
+   "k": 1,
+   "skin": "#a87050",
+   "hair": "#6a4a2a",
+   "hc": "#9a7a50",
+   "w": "fist",
+   "o": "pavise",
+   "oc": "#8a6a40"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "snapping_turtle",
+  "name": "断指盾卫",
+  "title": null,
+  "tier": "步兵",
+  "boss": false,
+  "ai": "line",
+  "aiName": "列阵推进",
+  "stats": {
+   "hp": 180,
+   "attack": 12,
+   "attack_speed": 0.9,
+   "run_speed": 9,
+   "range_px": 30
+  },
+  "bone": 3,
+  "traits": [
+   {
+    "id": "trait_snap",
+    "name": "断指斩击",
+    "desc": "该敌军的攻击伤害会切断手指，在本回合内使目标的攻击力降低1%，最多叠加10次。"
+   }
+  ],
+  "look": {
+   "b": "#4a6a3a",
+   "d": "#2e4424",
+   "t": "#a0a070",
+   "h": "helm",
+   "k": 1.05,
+   "skin": "#d8a078",
+   "hair": "#1a1014",
+   "hc": "#3a5a2a",
+   "w": "cleaver",
+   "o": "shell",
+   "oc": "#5a7a3a"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "honey_badger",
+  "name": "狂信刃徒",
+  "title": null,
+  "tier": "步兵",
+  "boss": false,
+  "ai": "dive",
+  "aiName": "绕后突袭",
+  "stats": {
+   "hp": 140,
+   "attack": 16,
+   "attack_speed": 1.4,
+   "run_speed": 15,
+   "range_px": 30
+  },
+  "bone": 4,
+  "traits": [
+   {
+    "id": "bloodthirsty",
+    "name": "执念冲杀",
+    "desc": "该敌军拥有80%嘲讽抗性。"
+   }
+  ],
+  "look": {
+   "b": "#2a2a2a",
+   "d": "#151515",
+   "t": "#f0f0f0",
+   "h": "hood",
+   "k": 0.95,
+   "skin": "#a87050",
+   "hair": "#a07040",
+   "hc": "#f0f0f0",
+   "w": "dagger",
+   "o": "dagger2"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "bigcat_leopard",
+  "name": "猎锋轻剑士",
+  "title": null,
+  "tier": "精锐",
+  "boss": false,
+  "ai": "dive",
+  "aiName": "绕后突袭",
+  "stats": {
+   "hp": 160,
+   "attack": 16,
+   "attack_speed": 1.4,
+   "run_speed": 18,
+   "range_px": 30
+  },
+  "bone": 4,
+  "traits": [
+   {
+    "id": "t_sharp_claws",
+    "name": "破甲锋刃",
+    "desc": "该敌军的攻击获得25%穿透。"
+   }
+  ],
+  "look": {
+   "b": "#d8b050",
+   "d": "#9a7a30",
+   "t": "#3a2a1a",
+   "h": "band",
+   "k": 1,
+   "skin": "#c08860",
+   "hair": "#7a2a1a",
+   "hc": "#3a2a1a",
+   "w": "saber"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "stab_crab",
+  "name": "刃腕擒拿兵",
+  "title": null,
+  "tier": "精锐",
+  "boss": false,
+  "ai": "charge",
+  "aiName": "正面冲阵",
+  "stats": {
+   "hp": 170,
+   "attack": 16,
+   "attack_speed": 1.2,
+   "run_speed": 11,
+   "range_px": 30
+  },
+  "bone": 4,
+  "traits": [
+   {
+    "id": "t_knife",
+    "name": "淬刃武装",
+    "desc": "该敌军持有一把刀，因此获得了15%穿透。"
+   },
+   {
+    "id": "trait_pinch",
+    "name": "贴身缠杀",
+    "desc": "当该敌军造成攻击伤害时，有10%概率附着在目标身上，持续3秒。附着期间，每半秒对目标造成相当于其秒伤75%的伤害。"
+   }
+  ],
+  "look": {
+   "b": "#c04a2a",
+   "d": "#7a2a18",
+   "t": "#e0e0e8",
+   "h": "helm",
+   "k": 1,
+   "skin": "#d8a078",
+   "hair": "#3a2a1a",
+   "hc": "#a03a20",
+   "w": "claw",
+   "o": "dagger2"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "porcupine",
+  "name": "刺甲反击卫",
+  "title": null,
+  "tier": "精锐",
+  "boss": false,
+  "ai": "line",
+  "aiName": "列阵推进",
+  "stats": {
+   "hp": 180,
+   "attack": 18,
+   "attack_speed": 1,
+   "run_speed": 10,
+   "range_px": 30
+  },
+  "bone": 4,
+  "traits": [
+   {
+    "id": "trait_quills",
+    "name": "刺甲反伤",
+    "desc": "该敌军获得10%穿透，且在承受攻击伤害时，有15%概率对攻击者造成相当于其秒伤30%的伤害。"
+   }
+  ],
+  "look": {
+   "b": "#6a6a78",
+   "d": "#44444e",
+   "t": "#c8c8d0",
+   "h": "spike",
+   "k": 1.1,
+   "skin": "#e8b890",
+   "hair": "#c8b080",
+   "hc": "#7a7a88",
+   "w": "mace",
+   "o": "round",
+   "oc": "#5a5a68"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "bigcat_cougar",
+  "name": "山地破甲兵",
+  "title": null,
+  "tier": "精锐",
+  "boss": false,
+  "ai": "flank",
+  "aiName": "侧翼包抄",
+  "stats": {
+   "hp": 190,
+   "attack": 18,
+   "attack_speed": 1.1,
+   "run_speed": 14,
+   "range_px": 30
+  },
+  "bone": 4,
+  "traits": [
+   {
+    "id": "t_sharp_claws",
+    "name": "破甲锋刃",
+    "desc": "该敌军的攻击获得25%穿透。"
+   }
+  ],
+  "look": {
+   "b": "#a07a50",
+   "d": "#6a5034",
+   "t": "#d8c8a0",
+   "h": "fur",
+   "k": 1.05,
+   "skin": "#a87050",
+   "hair": "#3a2a1a",
+   "hc": "#8a6a44",
+   "w": "pick"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "bigcat_lioness",
+  "name": "王廷侍剑士",
+  "title": null,
+  "tier": "精锐",
+  "boss": false,
+  "ai": "line",
+  "aiName": "列阵推进",
+  "stats": {
+   "hp": 200,
+   "attack": 15,
+   "attack_speed": 1.1,
+   "run_speed": 12,
+   "range_px": 30
+  },
+  "bone": 4,
+  "traits": [
+   {
+    "id": "t_pack",
+    "name": "同袍分伤",
+    "desc": "承受伤害的30%将会被转移，并均分给另外2个同兵种敌军。"
+   },
+   {
+    "id": "t_sharp_claws",
+    "name": "破甲锋刃",
+    "desc": "该敌军的攻击获得25%穿透。"
+   }
+  ],
+  "look": {
+   "b": "#6a3a8a",
+   "d": "#40205a",
+   "t": "#d4a84a",
+   "h": "helm",
+   "k": 1.05,
+   "skin": "#c08860",
+   "hair": "#3a2a1a",
+   "hc": "#d4a84a",
+   "w": "sword",
+   "o": "shield",
+   "oc": "#6a3a8a"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "grizzly_bear",
+  "name": "暴怒斧兵",
+  "title": null,
+  "tier": "精锐",
+  "boss": false,
+  "ai": "charge",
+  "aiName": "正面冲阵",
+  "stats": {
+   "hp": 250,
+   "attack": 22,
+   "attack_speed": 0.9,
+   "run_speed": 12,
+   "range_px": 30
+  },
+  "bone": 4,
+  "traits": [
+   {
+    "id": "t_primal_rage",
+    "name": "绝境战吼",
+    "desc": "当该敌军的生命值降至30%以下时，他会发出一声咆哮，摧毁附近亡灵的临时生命值，并在本回合内获得20%攻击力。"
+   }
+  ],
+  "look": {
+   "b": "#8a2a2a",
+   "d": "#5a1a1a",
+   "t": "#6b4a2e",
+   "h": "fur",
+   "k": 1.2,
+   "skin": "#d8a078",
+   "hair": "#7a2a1a",
+   "hc": "#5a3a24",
+   "w": "gaxe"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "peregrine_falcon",
+  "name": "掠影决斗士",
+  "title": null,
+  "tier": "精锐",
+  "boss": false,
+  "ai": "dive",
+  "aiName": "绕后突袭",
+  "stats": {
+   "hp": 150,
+   "attack": 18,
+   "attack_speed": 1.5,
+   "run_speed": 22,
+   "range_px": 30
+  },
+  "bone": 5,
+  "traits": [
+   {
+    "id": "trait_slashing_rampage",
+    "name": "绝境连斩",
+    "desc": "当其生命值降至50%以下时，他会在5名随机亡灵间快速冲刺，对他们进行劈砍，造成相当于其秒伤60%的伤害。"
+   },
+   {
+    "id": "trait_peck",
+    "name": "扬砂扰目",
+    "desc": "该敌军的攻击伤害有10%概率对目标施加10%失手率，持续2秒。"
+   }
+  ],
+  "look": {
+   "b": "#6a7a8a",
+   "d": "#424c58",
+   "t": "#f0e8d0",
+   "h": "feather",
+   "k": 1,
+   "skin": "#c08860",
+   "hair": "#a07040",
+   "hc": "#2a2a34",
+   "w": "saber",
+   "o": "cape",
+   "oc": "#3a4450"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "king_cobra",
+  "name": "御用淬毒卫",
+  "title": null,
+  "tier": "精锐",
+  "boss": false,
+  "ai": "line",
+  "aiName": "列阵推进",
+  "stats": {
+   "hp": 180,
+   "attack": 18,
+   "attack_speed": 1.2,
+   "run_speed": 13,
+   "range_px": 30
+  },
+  "bone": 5,
+  "traits": [
+   {
+    "id": "trait_venom",
+    "name": "淬毒蚀甲",
+    "desc": "该敌军的攻击伤害会在本回合内对目标施加1%易伤，最多叠加10次。"
+   }
+  ],
+  "look": {
+   "b": "#2a2a3a",
+   "d": "#16161e",
+   "t": "#d4a84a",
+   "h": "crest",
+   "k": 1.05,
+   "skin": "#d8a078",
+   "hair": "#1a1014",
+   "hc": "#d4a84a",
+   "w": "glaive"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "wherewolf",
+  "name": "秘法协防卫",
+  "title": null,
+  "tier": "精锐",
+  "boss": false,
+  "ai": "dive",
+  "aiName": "绕后突袭",
+  "stats": {
+   "hp": 180,
+   "attack": 16,
+   "attack_speed": 1.2,
+   "run_speed": 14,
+   "range_px": 30
+  },
+  "bone": 5,
+  "traits": [
+   {
+    "id": "t_pack",
+    "name": "同袍分伤",
+    "desc": "承受伤害的30%将会被转移，并均分给另外2个同兵种敌军。"
+   },
+   {
+    "id": "t_phased",
+    "name": "闪步袭杀",
+    "desc": "他进行攻击时，有20%的概率传送到一名随机亡灵身边并立即对其进行攻击。"
+   }
+  ],
+  "look": {
+   "b": "#5a3a8a",
+   "d": "#36225a",
+   "t": "#c0a0ff",
+   "h": "hood",
+   "k": 1,
+   "skin": "#e8b890",
+   "hair": "#3a2a1a",
+   "hc": "#4a2a7a",
+   "w": "staff"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "cassowary",
+  "name": "旋刃突击兵",
+  "title": null,
+  "tier": "精锐",
+  "boss": false,
+  "ai": "flank",
+  "aiName": "侧翼包抄",
+  "stats": {
+   "hp": 200,
+   "attack": 20,
+   "attack_speed": 1.2,
+   "run_speed": 16,
+   "range_px": 30
+  },
+  "bone": 5,
+  "traits": [
+   {
+    "id": "trait_slashing_rampage",
+    "name": "绝境连斩",
+    "desc": "当其生命值降至50%以下时，他会在5名随机亡灵间快速冲刺，对他们进行劈砍，造成相当于其秒伤60%的伤害。"
+   },
+   {
+    "id": "t_sharp_claws",
+    "name": "破甲锋刃",
+    "desc": "该敌军的攻击获得25%穿透。"
+   }
+  ],
+  "look": {
+   "b": "#2a3a8a",
+   "d": "#18225a",
+   "t": "#40c0e0",
+   "h": "crest",
+   "k": 1.05,
+   "skin": "#a87050",
+   "hair": "#1a1014",
+   "hc": "#40c0e0",
+   "w": "glaive"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "bigcat_panther",
+  "name": "黑披破甲卫",
+  "title": null,
+  "tier": "精锐",
+  "boss": false,
+  "ai": "flank",
+  "aiName": "侧翼包抄",
+  "stats": {
+   "hp": 220,
+   "attack": 20,
+   "attack_speed": 1.1,
+   "run_speed": 14,
+   "range_px": 30
+  },
+  "bone": 5,
+  "traits": [
+   {
+    "id": "t_sharp_claws",
+    "name": "破甲锋刃",
+    "desc": "该敌军的攻击获得25%穿透。"
+   }
+  ],
+  "look": {
+   "b": "#2a2630",
+   "d": "#16141a",
+   "t": "#8a6aa0",
+   "h": "hood",
+   "k": 1.05,
+   "skin": "#c08860",
+   "hair": "#6a4a2a",
+   "hc": "#1e1a24",
+   "w": "pick",
+   "o": "cape",
+   "oc": "#1e1a24"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "bullfrog",
+  "name": "毒甲冲阵兵",
+  "title": null,
+  "tier": "精锐",
+  "boss": false,
+  "ai": "charge",
+  "aiName": "正面冲阵",
+  "stats": {
+   "hp": 220,
+   "attack": 18,
+   "attack_speed": 1,
+   "run_speed": 12,
+   "range_px": 30
+  },
+  "bone": 5,
+  "traits": [
+   {
+    "id": "trait_charger",
+    "name": "列阵冲锋",
+    "desc": "该敌军有时会横穿战场冲锋，对沿途穿过的亡灵造成伤害并将其击飞。"
+   },
+   {
+    "id": "t_toxic_secretion",
+    "name": "毒甲反染",
+    "desc": "受到伤害时，该敌军会对攻击者施加1%易伤，持续8秒，最多叠加10次。"
+   }
+  ],
+  "look": {
+   "b": "#5a9a3a",
+   "d": "#365e22",
+   "t": "#e0e040",
+   "h": "kettle",
+   "k": 1.15,
+   "skin": "#e8b890",
+   "hair": "#7a2a1a",
+   "hc": "#4a8a2a",
+   "w": "mace",
+   "o": "tower",
+   "oc": "#4a7a30"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "jumbo_shrimp",
+  "name": "重装爆拳手",
+  "title": null,
+  "tier": "精锐",
+  "boss": false,
+  "ai": "charge",
+  "aiName": "正面冲阵",
+  "stats": {
+   "hp": 240,
+   "attack": 22,
+   "attack_speed": 1,
+   "run_speed": 11,
+   "range_px": 30
+  },
+  "bone": 5,
+  "traits": [
+   {
+    "id": "trait_cavitation_bubble",
+    "name": "爆拳震荡",
+    "desc": "其攻击有5%的概率引发一场爆炸，将所有附近的亡灵击飞。"
+   }
+  ],
+  "look": {
+   "b": "#e05a4a",
+   "d": "#9a3a2e",
+   "t": "#f0d0c0",
+   "h": "helm",
+   "k": 1.15,
+   "skin": "#f0c8a0",
+   "hair": "#c8b080",
+   "hc": "#c04a3a",
+   "w": "fist"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "moose",
+  "name": "长枪冲阵兵",
+  "title": null,
+  "tier": "精锐",
+  "boss": false,
+  "ai": "charge",
+  "aiName": "正面冲阵",
+  "stats": {
+   "hp": 260,
+   "attack": 22,
+   "attack_speed": 0.9,
+   "run_speed": 14,
+   "range_px": 30
+  },
+  "bone": 5,
+  "traits": [
+   {
+    "id": "trait_charger",
+    "name": "列阵冲锋",
+    "desc": "该敌军有时会横穿战场冲锋，对沿途穿过的亡灵造成伤害并将其击飞。"
+   }
+  ],
+  "look": {
+   "b": "#7a5a3a",
+   "d": "#4e3824",
+   "t": "#d0c0a0",
+   "h": "kettle",
+   "k": 1.1,
+   "skin": "#f0c8a0",
+   "hair": "#c8b080",
+   "hc": "#8a8a8a",
+   "w": "pike"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "mantis_shrimp",
+  "name": "火药爆拳手",
+  "title": null,
+  "tier": "精锐",
+  "boss": false,
+  "ai": "charge",
+  "aiName": "正面冲阵",
+  "stats": {
+   "hp": 200,
+   "attack": 26,
+   "attack_speed": 1.3,
+   "run_speed": 13,
+   "range_px": 30
+  },
+  "bone": 6,
+  "traits": [
+   {
+    "id": "trait_cavitation_bubble",
+    "name": "爆拳震荡",
+    "desc": "其攻击有5%的概率引发一场爆炸，将所有附近的亡灵击飞。"
+   }
+  ],
+  "look": {
+   "b": "#3ac0a0",
+   "d": "#22806a",
+   "t": "#ff5a8a",
+   "h": "band",
+   "k": 1.05,
+   "skin": "#c08860",
+   "hair": "#1a1014",
+   "hc": "#ff5a8a",
+   "w": "fist"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "wolf_alpha",
+  "name": "伤兵追猎者",
+  "title": null,
+  "tier": "精锐",
+  "boss": false,
+  "ai": "hunter",
+  "aiName": "追猎伤兵",
+  "stats": {
+   "hp": 230,
+   "attack": 22,
+   "attack_speed": 1.1,
+   "run_speed": 16,
+   "range_px": 30
+  },
+  "bone": 6,
+  "traits": [
+   {
+    "id": "t_hunter",
+    "name": "追猎伤兵",
+    "desc": "有时会寻找受伤的亡灵并向其冲刺，持续对其发起攻击2秒，并在此期间免疫嘲讽。"
+   }
+  ],
+  "look": {
+   "b": "#7a7a84",
+   "d": "#4e4e56",
+   "t": "#d8d8e0",
+   "h": "fur",
+   "k": 1.15,
+   "skin": "#a87050",
+   "hair": "#1a1014",
+   "hc": "#9a9aa4",
+   "w": "spear"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "horse_stallion",
+  "name": "惊骑队长",
+  "title": null,
+  "tier": "精锐",
+  "boss": false,
+  "ai": "flank",
+  "aiName": "侧翼包抄",
+  "stats": {
+   "hp": 240,
+   "attack": 20,
+   "attack_speed": 1,
+   "run_speed": 22,
+   "range_px": 30
+  },
+  "bone": 6,
+  "traits": [
+   {
+    "id": "t_panicky",
+    "name": "惊骑乱冲",
+    "desc": "当其生命值降至30%以下时，他会陷入惊骑乱冲并四处乱跑，对途经的所有亡灵造成相当于其攻击力20%的伤害，并将其击飞。"
+   }
+  ],
+  "look": {
+   "b": "#3a3a44",
+   "d": "#22222a",
+   "t": "#d4a84a",
+   "h": "plume",
+   "k": 1.05,
+   "skin": "#c08860",
+   "hair": "#7a2a1a",
+   "hc": "#d4a84a",
+   "w": "saber",
+   "m": "horse",
+   "mc": "#2a2224"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "Kung Roo",
+  "name": "钩镰镇卫",
+  "title": null,
+  "tier": "精锐",
+  "boss": false,
+  "ai": "line",
+  "aiName": "列阵推进",
+  "stats": {
+   "hp": 240,
+   "attack": 22,
+   "attack_speed": 1.2,
+   "run_speed": 15,
+   "range_px": 30
+  },
+  "bone": 6,
+  "traits": [
+   {
+    "id": "t_tail_whip",
+    "name": "钩镰抛敌",
+    "desc": "该敌军的攻击有20%的概率将其主要目标直接向另一个同兵种敌军击飞。"
+   },
+   {
+    "id": "trait_tripod",
+    "name": "驻盾支撑",
+    "desc": "得益于驻地盾架提供的稳定支撑，他无法被击飞或眩晕。"
+   }
+  ],
+  "look": {
+   "b": "#a0402a",
+   "d": "#6a2818",
+   "t": "#e0c070",
+   "h": "band",
+   "k": 1.05,
+   "skin": "#a87050",
+   "hair": "#1a1014",
+   "hc": "#e0c070",
+   "w": "hook",
+   "o": "pavise",
+   "oc": "#8a5a30"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "bigcat_lion",
+  "name": "王廷重剑士",
+  "title": null,
+  "tier": "精锐",
+  "boss": false,
+  "ai": "charge",
+  "aiName": "正面冲阵",
+  "stats": {
+   "hp": 260,
+   "attack": 22,
+   "attack_speed": 1,
+   "run_speed": 12,
+   "range_px": 30
+  },
+  "bone": 6,
+  "traits": [
+   {
+    "id": "t_proud",
+    "name": "王廷血誓",
+    "desc": "当王廷重剑士或王廷侍剑士被击败时，所有王廷重剑士获得独立叠加的10%攻击力，持续10秒。"
+   },
+   {
+    "id": "t_sharp_claws",
+    "name": "破甲锋刃",
+    "desc": "该敌军的攻击获得25%穿透。"
+   }
+  ],
+  "look": {
+   "b": "#c8a040",
+   "d": "#8c6a2a",
+   "t": "#6a3a8a",
+   "h": "plume",
+   "k": 1.25,
+   "skin": "#c08860",
+   "hair": "#7a2a1a",
+   "hc": "#c4313d",
+   "w": "great"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "horse_sized_duck",
+  "name": "震波号手",
+  "title": null,
+  "tier": "精锐",
+  "boss": false,
+  "ai": "back",
+  "aiName": "后排压阵",
+  "stats": {
+   "hp": 260,
+   "attack": 16,
+   "attack_speed": 0.9,
+   "run_speed": 12,
+   "range_px": 30
+  },
+  "bone": 6,
+  "traits": [
+   {
+    "id": "honk_blast",
+    "name": "号角震波",
+    "desc": "吹响震波号角，产生一道移动冲击波，将路径上的亡灵击飞。"
+   }
+  ],
+  "look": {
+   "b": "#e0c040",
+   "d": "#9a8020",
+   "t": "#8a3a2a",
+   "h": "cap",
+   "k": 1.2,
+   "skin": "#e8b890",
+   "hair": "#7a2a1a",
+   "hc": "#8a3a2a",
+   "w": "horn"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "bigcat_tiger",
+  "name": "跃阵斩马士",
+  "title": null,
+  "tier": "精锐",
+  "boss": false,
+  "ai": "charge",
+  "aiName": "正面冲阵",
+  "stats": {
+   "hp": 280,
+   "attack": 24,
+   "attack_speed": 1,
+   "run_speed": 14,
+   "range_px": 30
+  },
+  "bone": 6,
+  "traits": [
+   {
+    "id": "t_pounce",
+    "name": "挑飞追击",
+    "desc": "偶尔会将一名亡灵击飞，并扑向他。"
+   },
+   {
+    "id": "t_sharp_claws",
+    "name": "破甲锋刃",
+    "desc": "该敌军的攻击获得25%穿透。"
+   }
+  ],
+  "look": {
+   "b": "#e0802a",
+   "d": "#9a5018",
+   "t": "#1a1014",
+   "h": "helm",
+   "k": 1.15,
+   "skin": "#c08860",
+   "hair": "#3a2a1a",
+   "hc": "#e0802a",
+   "w": "glaive"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "crocodile",
+  "name": "接敌钩镰手",
+  "title": null,
+  "tier": "精锐",
+  "boss": false,
+  "ai": "line",
+  "aiName": "列阵推进",
+  "stats": {
+   "hp": 280,
+   "attack": 24,
+   "attack_speed": 1,
+   "run_speed": 11,
+   "range_px": 30
+  },
+  "bone": 6,
+  "traits": [
+   {
+    "id": "t_bite_instinct",
+    "name": "接敌追斩",
+    "desc": "当一名亡灵被击飞并落在该敌军附近时，他会条件反射般地立即对其发起攻击。"
+   },
+   {
+    "id": "t_tail_whip",
+    "name": "钩镰抛敌",
+    "desc": "该敌军的攻击有20%的概率将其主要目标直接向另一个同兵种敌军击飞。"
+   }
+  ],
+  "look": {
+   "b": "#4a7a4a",
+   "d": "#2e4e2e",
+   "t": "#c0d080",
+   "h": "helm",
+   "k": 1.15,
+   "skin": "#f0c8a0",
+   "hair": "#a07040",
+   "hc": "#3a6a3a",
+   "w": "hook"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "shotgun_turtle",
+  "name": "震盾火药兵",
+  "title": null,
+  "tier": "精锐",
+  "boss": false,
+  "ai": "line",
+  "aiName": "列阵推进",
+  "stats": {
+   "hp": 300,
+   "attack": 18,
+   "attack_speed": 0.9,
+   "run_speed": 9,
+   "range_px": 30
+  },
+  "bone": 6,
+  "traits": [
+   {
+    "id": "t_shotgun_shell",
+    "name": "震盾爆药",
+    "desc": "他偶尔会从盾壳中释放爆震，对身旁的亡灵造成伤害并将其击飞。"
+   },
+   {
+    "id": "trait_snap",
+    "name": "断指斩击",
+    "desc": "该敌军的攻击伤害会切断手指，在本回合内使目标的攻击力降低1%，最多叠加10次。"
+   }
+  ],
+  "look": {
+   "b": "#5a6a4a",
+   "d": "#3a4630",
+   "t": "#c0b080",
+   "h": "helm",
+   "k": 1.15,
+   "skin": "#f0c8a0",
+   "hair": "#3a2a1a",
+   "hc": "#4a5a3a",
+   "w": "gun",
+   "o": "shell",
+   "oc": "#6a7a4a"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "zombie_bear",
+  "name": "瘟烟苦修者",
+  "title": null,
+  "tier": "精锐",
+  "boss": false,
+  "ai": "charge",
+  "aiName": "正面冲阵",
+  "stats": {
+   "hp": 300,
+   "attack": 24,
+   "attack_speed": 0.9,
+   "run_speed": 11,
+   "range_px": 30
+  },
+  "bone": 6,
+  "traits": [
+   {
+    "id": "t_rotten",
+    "name": "瘟烟弹",
+    "desc": "他的攻击有20%概率生成一团瘟烟，使处于其中的亡灵受治疗效果降低25%，持续3秒。"
+   },
+   {
+    "id": "t_primal_rage",
+    "name": "绝境战吼",
+    "desc": "当该敌军的生命值降至30%以下时，他会发出一声咆哮，摧毁附近亡灵的临时生命值，并在本回合内获得20%攻击力。"
+   }
+  ],
+  "look": {
+   "b": "#6a5a4a",
+   "d": "#443a30",
+   "t": "#9aff6a",
+   "h": "hood",
+   "k": 1.2,
+   "skin": "#a87050",
+   "hair": "#7a2a1a",
+   "hc": "#544636",
+   "w": "censer"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "gorilla_silverback",
+  "name": "城垒重卫",
+  "title": null,
+  "tier": "精锐",
+  "boss": false,
+  "ai": "charge",
+  "aiName": "正面冲阵",
+  "stats": {
+   "hp": 320,
+   "attack": 24,
+   "attack_speed": 0.9,
+   "run_speed": 11,
+   "range_px": 30
+  },
+  "bone": 6,
+  "traits": [
+   {
+    "id": "trait_backhand",
+    "name": "重臂掀飞",
+    "desc": "其攻击有25%的概率将其主要目标远远击飞。"
+   }
+  ],
+  "look": {
+   "b": "#8a8a94",
+   "d": "#5a5a64",
+   "t": "#d0d0d8",
+   "h": "helm",
+   "k": 1.25,
+   "skin": "#f0c8a0",
+   "hair": "#1a1014",
+   "hc": "#a0a0aa",
+   "w": "maul"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "polar_bear",
+  "name": "北境狂战士",
+  "title": null,
+  "tier": "精锐",
+  "boss": false,
+  "ai": "charge",
+  "aiName": "正面冲阵",
+  "stats": {
+   "hp": 320,
+   "attack": 28,
+   "attack_speed": 0.9,
+   "run_speed": 12,
+   "range_px": 30
+  },
+  "bone": 6,
+  "traits": [
+   {
+    "id": "t_primal_rage",
+    "name": "绝境战吼",
+    "desc": "当该敌军的生命值降至30%以下时，他会发出一声咆哮，摧毁附近亡灵的临时生命值，并在本回合内获得20%攻击力。"
+   }
+  ],
+  "look": {
+   "b": "#e8ecf0",
+   "d": "#a8b0b8",
+   "t": "#7a9ab0",
+   "h": "fur",
+   "k": 1.25,
+   "skin": "#c08860",
+   "hair": "#a07040",
+   "hc": "#f0f4f8",
+   "w": "gaxe"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "bigcat_sabertooth",
+  "name": "古卫跃斧兵",
+  "title": null,
+  "tier": "精锐",
+  "boss": false,
+  "ai": "charge",
+  "aiName": "正面冲阵",
+  "stats": {
+   "hp": 320,
+   "attack": 28,
+   "attack_speed": 0.9,
+   "run_speed": 13,
+   "range_px": 30
+  },
+  "bone": 7,
+  "traits": [
+   {
+    "id": "t_pounce",
+    "name": "挑飞追击",
+    "desc": "偶尔会将一名亡灵击飞，并扑向他。"
+   },
+   {
+    "id": "t_sharp_claws",
+    "name": "破甲锋刃",
+    "desc": "该敌军的攻击获得25%穿透。"
+   }
+  ],
+  "look": {
+   "b": "#b08a50",
+   "d": "#7a5a30",
+   "t": "#f0e8d0",
+   "h": "horn",
+   "k": 1.2,
+   "skin": "#e8b890",
+   "hair": "#a07040",
+   "hc": "#d0c8b0",
+   "w": "gaxe"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "giga_wasp",
+  "name": "毒甲轻剑统领",
+  "title": null,
+  "tier": "精锐",
+  "boss": false,
+  "ai": "dive",
+  "aiName": "绕后突袭",
+  "stats": {
+   "hp": 280,
+   "attack": 26,
+   "attack_speed": 1.6,
+   "run_speed": 24,
+   "range_px": 30
+  },
+  "bone": 8,
+  "traits": [
+   {
+    "id": "evasive",
+    "name": "避开横扫",
+    "desc": "无法被顺劈选为目标。"
+   },
+   {
+    "id": "t_toxic_secretion",
+    "name": "毒甲反染",
+    "desc": "受到伤害时，该敌军会对攻击者施加1%易伤，持续8秒，最多叠加10次。"
+   }
+  ],
+  "look": {
+   "b": "#e8c020",
+   "d": "#1a1a1a",
+   "t": "#1a1a1a",
+   "h": "crest",
+   "k": 1.15,
+   "skin": "#a87050",
+   "hair": "#3a2a1a",
+   "hc": "#1a1a1a",
+   "w": "rapier",
+   "o": "cape",
+   "oc": "#1a1a1a"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "gorilla_diamondback",
+  "name": "城垒卫队统领",
+  "title": null,
+  "tier": "精锐",
+  "boss": false,
+  "ai": "charge",
+  "aiName": "正面冲阵",
+  "stats": {
+   "hp": 420,
+   "attack": 28,
+   "attack_speed": 0.9,
+   "run_speed": 11,
+   "range_px": 30
+  },
+  "bone": 8,
+  "traits": [
+   {
+    "id": "trait_apes_together",
+    "name": "城垒同袍",
+    "desc": "战斗中每存在一名城垒卫队类型的敌人，便获得可叠加的1%攻击力。"
+   },
+   {
+    "id": "trait_backhand",
+    "name": "重臂掀飞",
+    "desc": "其攻击有25%的概率将其主要目标远远击飞。"
+   }
+  ],
+  "look": {
+   "b": "#4a4a6a",
+   "d": "#2e2e44",
+   "t": "#60d0ff",
+   "h": "crown",
+   "k": 1.3,
+   "skin": "#a87050",
+   "hair": "#3a2a1a",
+   "hc": "#60d0ff",
+   "w": "maul",
+   "o": "banner",
+   "oc": "#2e2e44"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "horse_unicorn",
+  "name": "星辉骑卫",
+  "title": null,
+  "tier": "重装",
+  "boss": false,
+  "ai": "flank",
+  "aiName": "侧翼包抄",
+  "stats": {
+   "hp": 500,
+   "attack": 28,
+   "attack_speed": 1,
+   "run_speed": 20,
+   "range_px": 30
+  },
+  "bone": 12,
+  "traits": [
+   {
+    "id": "t_starburst",
+    "name": "星辉爆破",
+    "desc": "该敌军的攻击有20%概率向一名随机亡灵发射一颗星辉爆弹，对落点区域附近的所有亡灵造成伤害并将其击飞。"
+   },
+   {
+    "id": "t_panicky",
+    "name": "惊骑乱冲",
+    "desc": "当其生命值降至30%以下时，他会陷入惊骑乱冲并四处乱跑，对途经的所有亡灵造成相当于其攻击力20%的伤害，并将其击飞。"
+   },
+   {
+    "id": "t_sharp_horn",
+    "name": "贯甲枪锋",
+    "desc": "该敌军的攻击获得15%穿透。"
+   }
+  ],
+  "look": {
+   "b": "#d0d8f0",
+   "d": "#8a94b0",
+   "t": "#a0c0ff",
+   "h": "plume",
+   "k": 1.1,
+   "skin": "#f0c8a0",
+   "hair": "#7a2a1a",
+   "hc": "#a0c0ff",
+   "w": "lance",
+   "m": "unicorn",
+   "mc": "#f0f0f8"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "rhino",
+  "name": "破城重骑兵",
+  "title": null,
+  "tier": "重装",
+  "boss": false,
+  "ai": "charge",
+  "aiName": "正面冲阵",
+  "stats": {
+   "hp": 700,
+   "attack": 30,
+   "attack_speed": 0.9,
+   "run_speed": 14,
+   "range_px": 30
+  },
+  "bone": 12,
+  "traits": [
+   {
+    "id": "trait_charger",
+    "name": "列阵冲锋",
+    "desc": "该敌军有时会横穿战场冲锋，对沿途穿过的亡灵造成伤害并将其击飞。"
+   },
+   {
+    "id": "t_sharp_horn",
+    "name": "贯甲枪锋",
+    "desc": "该敌军的攻击获得15%穿透。"
+   },
+   {
+    "id": "t_huge",
+    "name": "重装稳固",
+    "desc": "该敌军体型过于庞大，使其无法被击飞或眩晕。"
+   }
+  ],
+  "look": {
+   "b": "#6a6a74",
+   "d": "#44444c",
+   "t": "#d4a84a",
+   "h": "helm",
+   "k": 1.1,
+   "skin": "#c08860",
+   "hair": "#7a2a1a",
+   "hc": "#8a8a94",
+   "w": "lance",
+   "m": "barded",
+   "mc": "#7a7a84"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "giant_moose",
+  "name": "城门冲车兵",
+  "title": null,
+  "tier": "重装",
+  "boss": false,
+  "ai": "heavy",
+  "aiName": "重装碾压",
+  "stats": {
+   "hp": 800,
+   "attack": 32,
+   "attack_speed": 0.8,
+   "run_speed": 12,
+   "range_px": 30
+  },
+  "bone": 14,
+  "traits": [
+   {
+    "id": "trait_charger",
+    "name": "列阵冲锋",
+    "desc": "该敌军有时会横穿战场冲锋，对沿途穿过的亡灵造成伤害并将其击飞。"
+   },
+   {
+    "id": "t_huge",
+    "name": "重装稳固",
+    "desc": "该敌军体型过于庞大，使其无法被击飞或眩晕。"
+   }
+  ],
+  "look": {
+   "b": "#7a5a3a",
+   "d": "#4e3824",
+   "t": "#d0c0a0",
+   "h": "kettle",
+   "k": 1,
+   "skin": "#a87050",
+   "hair": "#7a2a1a",
+   "hc": "#8a8a8a",
+   "m": "ram",
+   "mc": "#7a5030"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "woolly_rhino",
+  "name": "覆甲破城骑兵",
+  "title": null,
+  "tier": "重装",
+  "boss": false,
+  "ai": "charge",
+  "aiName": "正面冲阵",
+  "stats": {
+   "hp": 800,
+   "attack": 32,
+   "attack_speed": 0.9,
+   "run_speed": 13,
+   "range_px": 30
+  },
+  "bone": 14,
+  "traits": [
+   {
+    "id": "trait_charger",
+    "name": "列阵冲锋",
+    "desc": "该敌军有时会横穿战场冲锋，对沿途穿过的亡灵造成伤害并将其击飞。"
+   },
+   {
+    "id": "t_sharp_horn",
+    "name": "贯甲枪锋",
+    "desc": "该敌军的攻击获得15%穿透。"
+   },
+   {
+    "id": "t_huge",
+    "name": "重装稳固",
+    "desc": "该敌军体型过于庞大，使其无法被击飞或眩晕。"
+   }
+  ],
+  "look": {
+   "b": "#6a4a30",
+   "d": "#44301e",
+   "t": "#e0d0b0",
+   "h": "fur",
+   "k": 1.15,
+   "skin": "#e8b890",
+   "hair": "#c8b080",
+   "hc": "#8a6a44",
+   "w": "lance",
+   "m": "barded",
+   "mc": "#8a6a44"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "hippo",
+  "name": "掷泥攻城车兵",
+  "title": null,
+  "tier": "重装",
+  "boss": false,
+  "ai": "heavy",
+  "aiName": "重装碾压",
+  "stats": {
+   "hp": 850,
+   "attack": 28,
+   "attack_speed": 0.8,
+   "run_speed": 10,
+   "range_px": 30
+  },
+  "bone": 14,
+  "traits": [
+   {
+    "id": "t_hangry",
+    "name": "开阵冲撞",
+    "desc": "战斗开始时，该敌军会在战场上横冲直撞，对沿途穿过的亡灵造成伤害并将其击飞。"
+   },
+   {
+    "id": "trait_mudslinger",
+    "name": "泥弹遮目",
+    "desc": "其攻击有30%的概率向随机一名亡灵投掷泥巴。泥巴落点附近的所有亡灵获得15%失手率，持续2秒。"
+   },
+   {
+    "id": "t_huge",
+    "name": "重装稳固",
+    "desc": "该敌军体型过于庞大，使其无法被击飞或眩晕。"
+   }
+  ],
+  "look": {
+   "b": "#7a6a5a",
+   "d": "#4a3e34",
+   "t": "#c8a070",
+   "h": "cap",
+   "k": 1,
+   "skin": "#d8a078",
+   "hair": "#1a1014",
+   "hc": "#6a5a4a",
+   "m": "catapult",
+   "mc": "#8a6038"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "elephant",
+  "name": "攻城战车兵",
+  "title": null,
+  "tier": "重装",
+  "boss": false,
+  "ai": "heavy",
+  "aiName": "重装碾压",
+  "stats": {
+   "hp": 900,
+   "attack": 30,
+   "attack_speed": 0.7,
+   "run_speed": 10,
+   "range_px": 30
+  },
+  "bone": 14,
+  "traits": [
+   {
+    "id": "t_trample",
+    "name": "车骑碾压",
+    "desc": "该敌军从亡灵们身上踩过时，会对他们造成相当于该敌军秒伤20%的伤害，并短暂眩晕他们。"
+   },
+   {
+    "id": "t_huge",
+    "name": "重装稳固",
+    "desc": "该敌军体型过于庞大，使其无法被击飞或眩晕。"
+   }
+  ],
+  "look": {
+   "b": "#8a8a94",
+   "d": "#5a5a64",
+   "t": "#3561b0",
+   "h": "kettle",
+   "k": 1,
+   "skin": "#d8a078",
+   "hair": "#1a1014",
+   "hc": "#9aa4ac",
+   "w": "spear",
+   "m": "chariot",
+   "mc": "#8a6038"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "mega_croc",
+  "name": "钩镰战车兵",
+  "title": null,
+  "tier": "重装",
+  "boss": false,
+  "ai": "heavy",
+  "aiName": "重装碾压",
+  "stats": {
+   "hp": 1000,
+   "attack": 34,
+   "attack_speed": 0.8,
+   "run_speed": 9,
+   "range_px": 30
+  },
+  "bone": 18,
+  "traits": [
+   {
+    "id": "t_bite_instinct",
+    "name": "接敌追斩",
+    "desc": "当一名亡灵被击飞并落在该敌军附近时，他会条件反射般地立即对其发起攻击。"
+   },
+   {
+    "id": "t_tail_whip",
+    "name": "钩镰抛敌",
+    "desc": "该敌军的攻击有20%的概率将其主要目标直接向另一个同兵种敌军击飞。"
+   },
+   {
+    "id": "t_huge",
+    "name": "重装稳固",
+    "desc": "该敌军体型过于庞大，使其无法被击飞或眩晕。"
+   }
+  ],
+  "look": {
+   "b": "#4a7a4a",
+   "d": "#2e4e2e",
+   "t": "#c0d080",
+   "h": "helm",
+   "k": 1.05,
+   "skin": "#a87050",
+   "hair": "#6a4a2a",
+   "hc": "#3a6a3a",
+   "w": "hook",
+   "m": "scythe",
+   "mc": "#5a4a30"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "mammoth",
+  "name": "重装攻城车兵",
+  "title": null,
+  "tier": "重装",
+  "boss": false,
+  "ai": "heavy",
+  "aiName": "重装碾压",
+  "stats": {
+   "hp": 1300,
+   "attack": 38,
+   "attack_speed": 0.7,
+   "run_speed": 9,
+   "range_px": 30
+  },
+  "bone": 20,
+  "traits": [
+   {
+    "id": "t_primal_rage",
+    "name": "绝境战吼",
+    "desc": "当该敌军的生命值降至30%以下时，他会发出一声咆哮，摧毁附近亡灵的临时生命值，并在本回合内获得20%攻击力。"
+   },
+   {
+    "id": "t_trample",
+    "name": "车骑碾压",
+    "desc": "该敌军从亡灵们身上踩过时，会对他们造成相当于该敌军秒伤20%的伤害，并短暂眩晕他们。"
+   },
+   {
+    "id": "t_huge",
+    "name": "重装稳固",
+    "desc": "该敌军体型过于庞大，使其无法被击飞或眩晕。"
+   }
+  ],
+  "look": {
+   "b": "#6a5a4a",
+   "d": "#443a30",
+   "t": "#c4313d",
+   "h": "helm",
+   "k": 1.1,
+   "skin": "#c08860",
+   "hair": "#a07040",
+   "hc": "#8a8a94",
+   "m": "tower",
+   "mc": "#7a5030"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "b_wagon",
+  "name": "护阵辎车",
+  "title": null,
+  "tier": "首领",
+  "boss": true,
+  "ai": "heavy",
+  "aiName": "重装碾压",
+  "stats": {
+   "hp": 320,
+   "attack": 10,
+   "attack_speed": 0.8,
+   "run_speed": 9,
+   "range_px": 32
+  },
+  "bone": 4,
+  "traits": [
+   {
+    "id": "t_trample",
+    "name": "车骑碾压",
+    "desc": "该敌军从亡灵们身上踩过时，会对他们造成相当于该敌军秒伤20%的伤害，并短暂眩晕他们。"
+   },
+   {
+    "id": "t_huge",
+    "name": "重装稳固",
+    "desc": "该敌军体型过于庞大，使其无法被击飞或眩晕。"
+   }
+  ],
+  "look": {
+   "b": "#7a5a3a",
+   "d": "#4a3420",
+   "t": "#b03a3a",
+   "h": "none",
+   "w": "",
+   "m": "wagon",
+   "mc": "#8a6a40",
+   "k": 1.2
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "rk_tristan",
+  "name": "崔斯坦",
+  "title": "弓骑士",
+  "tier": "首领",
+  "boss": true,
+  "ai": "back",
+  "aiName": "后排压阵",
+  "stats": {
+   "hp": 750,
+   "attack": 26,
+   "attack_speed": 1,
+   "run_speed": 16,
+   "range_px": 200
+  },
+  "bone": 10,
+  "traits": [
+   {
+    "id": "b_ranged",
+    "name": "远程",
+    "desc": "在约 200 像素外攻击。"
+   },
+   {
+    "id": "trait_mudslinger",
+    "name": "泥弹遮目",
+    "desc": "其攻击有30%的概率向随机一名亡灵投掷泥巴。泥巴落点附近的所有亡灵获得15%失手率，持续2秒。"
+   },
+   {
+    "id": "evasive",
+    "name": "避开横扫",
+    "desc": "无法被顺劈选为目标。"
+   },
+   {
+    "id": "b_oath",
+    "name": "圆桌誓约",
+    "desc": "每倒下一名圆桌骑士，其余骑士回复 25% 最大生命，攻击 +15%（可叠加）。"
+   }
+  ],
+  "look": {
+   "b": "#2a5a4a",
+   "d": "#1a3a2a",
+   "t": "#d4a84a",
+   "h": "hood",
+   "hc": "#2a5a4a",
+   "w": "bow",
+   "m": "horse",
+   "mc": "#6a4a2a",
+   "k": 1.3
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "rk_percival",
+  "name": "珀西瓦尔",
+  "title": "追猎骑士",
+  "tier": "首领",
+  "boss": true,
+  "ai": "hunter",
+  "aiName": "追猎伤兵",
+  "stats": {
+   "hp": 850,
+   "attack": 28,
+   "attack_speed": 1.1,
+   "run_speed": 20,
+   "range_px": 32
+  },
+  "bone": 10,
+  "traits": [
+   {
+    "id": "t_hunter",
+    "name": "追猎伤兵",
+    "desc": "有时会寻找受伤的亡灵并向其冲刺，持续对其发起攻击2秒，并在此期间免疫嘲讽。"
+   },
+   {
+    "id": "t_sharp_horn",
+    "name": "贯甲枪锋",
+    "desc": "该敌军的攻击获得15%穿透。"
+   },
+   {
+    "id": "b_oath",
+    "name": "圆桌誓约",
+    "desc": "每倒下一名圆桌骑士，其余骑士回复 25% 最大生命，攻击 +15%（可叠加）。"
+   }
+  ],
+  "look": {
+   "b": "#4a7a3a",
+   "d": "#2a4a20",
+   "t": "#c8a040",
+   "h": "feather",
+   "hc": "#4a7a3a",
+   "w": "lance",
+   "m": "horse",
+   "mc": "#7a5030",
+   "k": 1.3
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "rk_lancelot",
+  "name": "兰斯洛特",
+  "title": "湖上骑士",
+  "tier": "首领",
+  "boss": true,
+  "ai": "dive",
+  "aiName": "绕后突袭",
+  "stats": {
+   "hp": 900,
+   "attack": 30,
+   "attack_speed": 1.2,
+   "run_speed": 18,
+   "range_px": 32
+  },
+  "bone": 10,
+  "traits": [
+   {
+    "id": "t_phased",
+    "name": "闪步袭杀",
+    "desc": "他进行攻击时，有20%的概率传送到一名随机亡灵身边并立即对其进行攻击。"
+   },
+   {
+    "id": "trait_slashing_rampage",
+    "name": "绝境连斩",
+    "desc": "当其生命值降至50%以下时，他会在5名随机亡灵间快速冲刺，对他们进行劈砍，造成相当于其秒伤60%的伤害。"
+   },
+   {
+    "id": "b_oath",
+    "name": "圆桌誓约",
+    "desc": "每倒下一名圆桌骑士，其余骑士回复 25% 最大生命，攻击 +15%（可叠加）。"
+   }
+  ],
+  "look": {
+   "b": "#a8b8d0",
+   "d": "#5a6a8a",
+   "t": "#3a5aa8",
+   "h": "plume",
+   "hc": "#3a5aa8",
+   "w": "sword",
+   "m": "barded",
+   "mc": "#8a98b0",
+   "k": 1.3
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "rk_galahad",
+  "name": "加拉哈德",
+  "title": "圣杯骑士",
+  "tier": "首领",
+  "boss": true,
+  "ai": "line",
+  "aiName": "列阵推进",
+  "stats": {
+   "hp": 1000,
+   "attack": 26,
+   "attack_speed": 1,
+   "run_speed": 14,
+   "range_px": 32
+  },
+  "bone": 10,
+  "traits": [
+   {
+    "id": "t_starburst",
+    "name": "星辉爆破",
+    "desc": "该敌军的攻击有20%概率向一名随机亡灵发射一颗星辉爆弹，对落点区域附近的所有亡灵造成伤害并将其击飞。"
+   },
+   {
+    "id": "trait_quills",
+    "name": "刺甲反伤",
+    "desc": "该敌军获得10%穿透，且在承受攻击伤害时，有15%概率对攻击者造成相当于其秒伤30%的伤害。"
+   },
+   {
+    "id": "b_oath",
+    "name": "圆桌誓约",
+    "desc": "每倒下一名圆桌骑士，其余骑士回复 25% 最大生命，攻击 +15%（可叠加）。"
+   }
+  ],
+  "look": {
+   "b": "#f0f0f0",
+   "d": "#b0b0c0",
+   "t": "#ffd24a",
+   "h": "helm",
+   "hc": "#e8e8f8",
+   "w": "great",
+   "m": "unicorn",
+   "mc": "#f0f0f8",
+   "k": 1.3
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "rk_gawain",
+  "name": "高文",
+  "title": "日轮骑士",
+  "tier": "首领",
+  "boss": true,
+  "ai": "charge",
+  "aiName": "正面冲阵",
+  "stats": {
+   "hp": 1100,
+   "attack": 28,
+   "attack_speed": 1,
+   "run_speed": 14,
+   "range_px": 32
+  },
+  "bone": 10,
+  "traits": [
+   {
+    "id": "b_sun",
+    "name": "日轮加护",
+    "desc": "开战后 15 秒内攻击力翻倍。"
+   },
+   {
+    "id": "trait_stable",
+    "name": "低桩锚定",
+    "desc": "重心太低，使其无法被击飞或眩晕。"
+   },
+   {
+    "id": "b_oath",
+    "name": "圆桌誓约",
+    "desc": "每倒下一名圆桌骑士，其余骑士回复 25% 最大生命，攻击 +15%（可叠加）。"
+   }
+  ],
+  "look": {
+   "b": "#d0a040",
+   "d": "#8a5a20",
+   "t": "#c0301a",
+   "h": "crest",
+   "hc": "#ffb02e",
+   "w": "mace",
+   "o": "round",
+   "oc": "#c0301a",
+   "m": "barded",
+   "mc": "#d0b070",
+   "k": 1.3
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "rk_kay",
+  "name": "凯",
+  "title": "管家骑士",
+  "tier": "首领",
+  "boss": true,
+  "ai": "guard",
+  "aiName": "护卫拦截",
+  "stats": {
+   "hp": 1300,
+   "attack": 24,
+   "attack_speed": 0.9,
+   "run_speed": 11,
+   "range_px": 32
+  },
+  "bone": 10,
+  "traits": [
+   {
+    "id": "t_shotgun_shell",
+    "name": "震盾爆药",
+    "desc": "他偶尔会从盾壳中释放爆震，对身旁的亡灵造成伤害并将其击飞。"
+   },
+   {
+    "id": "trait_stable",
+    "name": "低桩锚定",
+    "desc": "重心太低，使其无法被击飞或眩晕。"
+   },
+   {
+    "id": "b_oath",
+    "name": "圆桌誓约",
+    "desc": "每倒下一名圆桌骑士，其余骑士回复 25% 最大生命，攻击 +15%（可叠加）。"
+   }
+  ],
+  "look": {
+   "b": "#7a6a5a",
+   "d": "#4a3a2a",
+   "t": "#c8a070",
+   "h": "kettle",
+   "hc": "#8a8a8a",
+   "w": "mace",
+   "o": "tower",
+   "oc": "#6a5a4a",
+   "k": 1.35
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "b_heir",
+  "name": "圣座继承人",
+  "title": null,
+  "tier": "首领",
+  "boss": true,
+  "ai": "back",
+  "aiName": "后排压阵",
+  "stats": {
+   "hp": 1800,
+   "attack": 16,
+   "attack_speed": 1,
+   "run_speed": 11,
+   "range_px": 220
+  },
+  "bone": 20,
+  "traits": [
+   {
+    "id": "b_ranged",
+    "name": "远程",
+    "desc": "在约 200 像素外攻击。"
+   },
+   {
+    "id": "b_bless",
+    "name": "圣座赐福",
+    "desc": "每 5 秒：给国王加 8% 最大生命的护盾，并为 3 名受伤最重的人类回复 10% 最大生命。"
+   }
+  ],
+  "look": {
+   "b": "#f0ead8",
+   "d": "#c8b890",
+   "t": "#d4a84a",
+   "h": "mitre",
+   "hc": "#f0ead8",
+   "w": "staff",
+   "k": 1.4
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "b_warlord",
+  "name": "千垒督军",
+  "title": null,
+  "tier": "首领",
+  "boss": true,
+  "ai": "heavy",
+  "aiName": "重装碾压",
+  "stats": {
+   "hp": 1400,
+   "attack": 26,
+   "attack_speed": 0.8,
+   "run_speed": 9,
+   "range_px": 36
+  },
+  "bone": 30,
+  "traits": [
+   {
+    "id": "t_killipede",
+    "name": "尾节护阵",
+    "desc": "其车首所受伤害的99%会被转移到其最后一节护卫车节，直至所有车节被消耗殆尽。"
+   },
+   {
+    "id": "b_train",
+    "name": "车阵连环",
+    "desc": "护卫车节串在车首后面蛇形前进，碾过亡灵（造成伤害并短暂眩晕）。车首倒下后，剩下的车节各自为战。"
+   },
+   {
+    "id": "b_wrath",
+    "name": "督军之怒",
+    "desc": "每失去一节护卫车，车首移速 +8%、攻击 +10%。"
+   },
+   {
+    "id": "t_trample",
+    "name": "车骑碾压",
+    "desc": "该敌军从亡灵们身上踩过时，会对他们造成相当于该敌军秒伤20%的伤害，并短暂眩晕他们。"
+   },
+   {
+    "id": "t_huge",
+    "name": "重装稳固",
+    "desc": "该敌军体型过于庞大，使其无法被击飞或眩晕。"
+   }
+  ],
+  "look": {
+   "b": "#5a4a6a",
+   "d": "#3a2a4a",
+   "t": "#d4a84a",
+   "h": "crown",
+   "hc": "#d4a84a",
+   "w": "great",
+   "m": "chariot",
+   "mc": "#6a4a2a",
+   "k": 1.55
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "demon_goat",
+  "name": "焚罪大审判官",
+  "title": null,
+  "tier": "首领",
+  "boss": false,
+  "ai": "charge",
+  "aiName": "正面冲阵",
+  "stats": {
+   "hp": 1800,
+   "attack": 36,
+   "attack_speed": 1,
+   "run_speed": 12,
+   "range_px": 30
+  },
+  "bone": 30,
+  "traits": [
+   {
+    "id": "t_hellfire",
+    "name": "审判烈焰",
+    "desc": "该敌军的攻击有20%概率向一名随机亡灵发射一团审判烈焰，对落点区域附近的所有亡灵造成伤害。"
+   },
+   {
+    "id": "t_primal_rage",
+    "name": "绝境战吼",
+    "desc": "当该敌军的生命值降至30%以下时，他会发出一声咆哮，摧毁附近亡灵的临时生命值，并在本回合内获得20%攻击力。"
+   },
+   {
+    "id": "t_sharp_horn",
+    "name": "贯甲枪锋",
+    "desc": "该敌军的攻击获得15%穿透。"
+   }
+  ],
+  "look": {
+   "b": "#a01818",
+   "d": "#600a0a",
+   "t": "#e8c46a",
+   "h": "mitre",
+   "k": 1.7,
+   "skin": "#c08860",
+   "hair": "#c8b080",
+   "hc": "#f0e8d0",
+   "w": "flame",
+   "o": "cape",
+   "oc": "#600a0a"
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "b_ironcrown",
+  "name": "破阵王·铁冠",
+  "title": null,
+  "tier": "首领",
+  "boss": true,
+  "ai": "charge",
+  "aiName": "正面冲阵",
+  "stats": {
+   "hp": 3000,
+   "attack": 34,
+   "attack_speed": 0.9,
+   "run_speed": 14,
+   "range_px": 36
+  },
+  "bone": 30,
+  "traits": [
+   {
+    "id": "trait_charger",
+    "name": "列阵冲锋",
+    "desc": "该敌军有时会横穿战场冲锋，对沿途穿过的亡灵造成伤害并将其击飞。"
+   },
+   {
+    "id": "b_crown",
+    "name": "铁冠号令",
+    "desc": "每 9 秒：全体人类攻速 +30%，持续 4 秒。"
+   },
+   {
+    "id": "b_rally",
+    "name": "援军号角",
+    "desc": "生命第一次降到 50% 时，召来 4 名王廷侍剑士。"
+   },
+   {
+    "id": "t_primal_rage",
+    "name": "绝境战吼",
+    "desc": "当该敌军的生命值降至30%以下时，他会发出一声咆哮，摧毁附近亡灵的临时生命值，并在本回合内获得20%攻击力。"
+   },
+   {
+    "id": "t_sharp_claws",
+    "name": "破甲锋刃",
+    "desc": "该敌军的攻击获得25%穿透。"
+   }
+  ],
+  "look": {
+   "b": "#3a3a4a",
+   "d": "#1e1e2a",
+   "t": "#d4a84a",
+   "h": "crown",
+   "hc": "#d4a84a",
+   "w": "great",
+   "o": "cape",
+   "oc": "#8a1a2a",
+   "m": "barded",
+   "mc": "#6a6a7a",
+   "k": 1.6
+  },
+  "usedInMaps": true
+ },
+ {
+  "id": "b_king",
+  "name": "国王·白冠",
+  "title": null,
+  "tier": "首领",
+  "boss": true,
+  "ai": "heavy",
+  "aiName": "重装碾压",
+  "stats": {
+   "hp": 6000,
+   "attack": 46,
+   "attack_speed": 1,
+   "run_speed": 10,
+   "range_px": 40
+  },
+  "bone": 40,
+  "traits": [
+   {
+    "id": "b_king",
+    "name": "王者号令",
+    "desc": "每 8 秒：全体人类攻击 +25%、移速 +15%，持续 5 秒。"
+   },
+   {
+    "id": "b_judge",
+    "name": "王剑审判",
+    "desc": "每 6 秒：在亡灵最密集处预警 1 秒，然后斩击半径 90 内的所有亡灵（180% 攻击力）并击飞。"
+   },
+   {
+    "id": "b_guard",
+    "name": "御前召集",
+    "desc": "生命降到 60% 和 30% 时，各召来 2 名王廷重剑士和 2 名王廷侍剑士。"
+   },
+   {
+    "id": "b_grief",
+    "name": "丧嗣之怒",
+    "desc": "圣座继承人倒下时，国王攻速 +50%、攻击 +20%。"
+   },
+   {
+    "id": "t_huge",
+    "name": "重装稳固",
+    "desc": "该敌军体型过于庞大，使其无法被击飞或眩晕。"
+   }
+  ],
+  "look": {
+   "b": "#e8e0d0",
+   "d": "#a89870",
+   "t": "#d4a84a",
+   "h": "crown",
+   "hc": "#ffd24a",
+   "w": "great",
+   "o": "cape",
+   "oc": "#8a1a2a",
+   "k": 1.95
+  },
+  "usedInMaps": true
+ }
+]
